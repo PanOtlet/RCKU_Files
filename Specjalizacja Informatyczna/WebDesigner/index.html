@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+  
+  <head data-gwd-animation-mode="proMode">
+    <meta name="generator" content="Google Web Designer 1.0.3.0115">
+    <title>PanOtlet Index WebSite</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/overview.css">
+    <style type="text/css" id="" title="Temp" media="screen">
+      .gwd-body {
+        width: 100%;
+        height: 100%;
+        background-color: transparent;
+        -webkit-transform-style: preserve-3d;
+        -webkit-transform: perspective(1400px) matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+      }
+    </style>
+  </head>
+  
+  <body class="gwd-body">
+    <div id="container" class="">
+      <header>
+         <h1>PanOtlet WebSite Project Index</h1>
+
+        <p>Lista moich projektów na lekcję Specjalizacji Informatycznej. Stworzone przez
+          <a href="http://panotlet.tk" title="On tylko kradnie pomysł :)">Pawła Otlewskiego</a>.</p>
+      </header>
+      <div id="main" role="main">
+        <ul class="example-tiles">
+          <li>
+            <a href="../Zadania/Kolory"> <span>
+              <b>Kolory</b><br>
+              Strona pełna kolorków.
+            </span>
+
+            </a>
+          </li>
+          <li>
+            <a href="../Zadania/Menu"> <span>
+              <b>Menu</b><br>
+              Menu .
+            </span>
+
+            </a>
+          </li>
+          <li>
+            <a href="example-endless-scroll/"> <span>
+              <b>Endless scroll</b><br>
+              Automatically load new content when scrolling down.
+            </span>
+
+            </a>
+          </li>
+          <li>
+            <a href="example-filter/"> <span>
+              <b>Filtering</b><br>
+              Showing and hiding tiles based on user-controlled filters.
+            </span>
+
+            </a>
+          </li>
+          <li>
+            <a href="example-flexible/"> <span>
+              <b>Flexible width</b><br>
+              Automatically adjusting tiles to always fill the container width.
+            </span>
+
+            </a>
+          </li>
+          <li>
+            <a href="example-lightbox/"> <span>
+              <b>Lightbox</b><br>
+              Showing a lightbox when users click tiles.
+            </span>
+
+            </a>
+          </li>
+          <li>
+            <a href="example-load-images/"> <span>
+              <b>Load it all</b>
+              <br>Load the plugin after all images have loaded.
+            </span>
+
+            </a>
+          </li>
+          <li>
+            <a href="example-placeholder/"> <span>
+              <b>Placeholders</b><br>
+              Displaying placeholders at the bottom to create even-sized columns.
+            </span>
+
+            </a>
+          </li>
+          <li>
+            <a href="example-sort"> <span>
+              <b>Sorting</b><br>
+              Let users change the sort order of your tiles.
+            </span>
+
+            </a>
+          </li>
+          <li>
+            <a href="example-stamp"> <span>
+              <b>Stamping</b><br>
+              Stamping tiles to specific positions in the layout.
+            </span>
+
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- include jQuery -->
+    <script src="libs/jquery.min.js"></script>
+    <!-- Include the plug-in -->
+    <script src="jquery.wookmark.js"></script>
+    <!-- Once the page is loaded, initalize the plug-in. -->
+    <script type="text/javascript">
+      (function ($){
+        $(function() {
+          var $handler = $('.example-tiles li');
+  
+          $handler.wookmark({
+              // Prepare layout options.
+              autoResize: true, // This will auto-update the layout when the browser window is resized.
+              container: $('#main'), // Optional, used for some extra CSS styling
+              offset: 5, // Optional, the distance between grid items
+              outerOffset: 10, // Optional, the distance to the containers border
+              itemWidth: 220 // Optional, the width of a grid item
+          });
+        });
+      })(jQuery);
+    </script>
+  </body>
+
+</html>

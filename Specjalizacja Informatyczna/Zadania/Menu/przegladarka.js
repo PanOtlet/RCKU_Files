@@ -1,0 +1,1 @@
+document.write("<font face='arial' color='#99FFFF'> Używasz przeglądarki:       " + navigator.appName + " " + navigator.appVersion + "</font>");

@@ -1,0 +1,521 @@
+body {
+	background: #000 url(img/background_repeat.png) top left;
+	color: #FFF;
+	margin: 0;
+}
+
+.view {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+a, a:visited {
+	color: #FFF;
+	text-decoration: none;
+}
+
+.platform-bar {
+	width: 100%;
+	height: 50px;
+	background: #000 url(img/hexxit/background_repeat.png) top left;
+	position:fixed;
+	z-index: 10;
+	top: 0;
+}
+
+.platform-menu {
+	position: relative;
+	background: transparent url(img/hexxit/platformlogo.png) left 50% no-repeat;
+	left: 10%;
+	height: 50px;
+	padding-left: 50px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.platform-menu ul {
+	list-style: none;
+	margin:0;
+	padding:0;
+	padding-top: 15px;
+}
+
+.platform-menu ul li {
+	display: inline;
+	padding: 0 15px;
+}
+
+.platform-menu ul li a {
+	text-decoration: none;
+	font-size: 0.90em;
+}
+
+#mute {
+	position: fixed;
+	top: 85px;
+	left: 95%;
+	width: 50px;
+	height: 50px;
+	background: transparent url(img/hexxit/speaker.png) top left no-repeat;
+}
+
+#unmute {
+	position: fixed;
+	top: 85px;
+	left: 95%;
+	width: 50px;
+	height: 50px;
+	background: transparent url(img/hexxit/speaker.png) bottom left no-repeat;
+}
+
+.scene0 {
+	background: transparent url(img/hexxit/background_1.jpg) no-repeat;
+	width: 2892px;
+	height: 700px;
+	position: absolute;
+}
+
+.scene1 {
+	background: transparent url(img/hexxit/background_15.jpg) no-repeat;
+	width: 1483px;
+	height: 700px;
+	position: absolute;
+	left: 2892px;
+}
+
+.scene2 {
+	background: transparent url(img/hexxit/scene2.jpg) no-repeat;
+	width: 1120px;
+	height: 817px;
+	position:absolute;
+	left: 4400px;
+	top: -100px;
+}
+
+.scene3 {
+	background: transparent url(img/hexxit/background_2.jpg) no-repeat;
+	width: 2800px;
+	height: 700px;
+	position:absolute;
+	left: 5600px;
+}
+
+.divider0 {
+	background: transparent url(img/hexxit/divider_0.png) no-repeat;
+	width: 1155px;
+	height: 700px;
+	position: absolute;
+	left: 1100px;
+	top: 0;
+	pointer-events:none;
+}
+
+.divider1 {
+	background: transparent url(img/hexxit/divider_1.png) no-repeat;
+	width: 1254px;
+	height: 1053px;
+	position: absolute;
+	left: 2600px;
+	top: 0;
+	pointer-events:none;
+}
+
+.divider2 {
+	background: transparent url(img/hexxit/divider_2.png) no-repeat;
+	width: 265px;
+	height: 851px;
+	position: absolute;
+	left: 4200px;
+	top: 0;
+}
+
+.divider3 {
+	background: transparent url(img/hexxit/divider_3.png) no-repeat;
+	width: 121px;
+	height: 867px;
+	position: absolute;
+	left: 5500px;
+	top: 0;
+}
+
+.logo {
+	background: transparent url(img/hexxit/hexxitlogo.png);
+	width: 1000px;
+	height: 333px;
+	position: absolute;
+	left: 1625px;
+	top: 100px;
+}
+
+.clouds {
+	width: inherit;
+	height: 419px;
+	background: transparent url(img/hexxit/clouds_small.png);
+	position: absolute;
+	top: 50px;
+}
+
+.clouds-large {
+	width: inherit;
+	height: 419px;
+	background: transparent url(img/hexxit/clouds_large.png);
+	position: absolute;
+	top: 50px;
+}
+
+.mountains {
+	width: inherit;
+	height: 300px;
+	background: transparent url(img/hexxit/mountains.png);
+	position: absolute;
+	top: 400px;
+}
+
+.mountains-dark {
+	width: inherit;
+	height: 491px;
+	background: transparent url(img/hexxit/mountains_dark.png);
+	position: absolute;
+	top: 220px;
+}
+
+.innbackground {
+	width: 1766px;
+	height: 355px;
+	background: transparent url(img/hexxit/innbackground.png) top left no-repeat;
+	position: absolute;
+	left: 1400px;
+	top: 400px;
+}
+
+.inn {
+	width: 830px;
+	height: 413px;
+	background: transparent url(img/hexxit/inn.png) top left no-repeat;
+	position: absolute;
+	left: 1650px;
+	top: 300px;
+}
+
+.tower {
+	width: 1285px;
+	height: 700px;
+	background: transparent url(img/hexxit/scene1.png) top left no-repeat;
+	position: absolute;
+	left: 100px;
+}
+
+.stairs {
+	width: 690px;
+	height: 700px;
+	background: transparent url(img/hexxit/stairs.png) top left no-repeat;
+	position: absolute;
+	top: 120px;
+}
+
+.towertop {
+	width: 1401px;
+	height: 255px;
+	background: transparent url(img/hexxit/towertop.png) top left no-repeat;
+	position: absolute;
+	top: 450px;
+	left: 100px;
+}
+
+.warriorfly {
+	width: 208px;
+	height: 220px;
+	background: transparent url(img/hexxit/warriorfly.png) top left no-repeat;
+	position: absolute;
+	top: 50px;
+	left: 1200px;
+}
+
+
+.golem {
+	width: 751px;
+	height: 686px;
+	background: transparent url(img/hexxit/golem.png) top left no-repeat;
+	position: absolute;
+	top: 50px;
+	left: 300px;
+}
+
+.archertop {
+	width: 555px;
+	height: 513px;
+	background: transparent url(img/hexxit/archertop.png) top left no-repeat;
+	position: absolute;
+	top: 200px;
+	left: 100px;
+}
+
+.fancytext {
+	font-family: 'Overlock SC', cursive;
+	font-size: 22pt;
+	
+}
+
+.firstline {
+	position: absolute;
+	top: 400px;
+	left: 500px;
+}
+
+.text-intro {
+	position: absolute;
+	top: 275px;
+	left: 250px;
+	width: 800px;
+}
+
+.text-intro .quote {
+	float: right;
+	margin: 0;
+	position: relative;
+	top: -25px;
+}
+
+.text-intro h2 {
+	font-size: 16pt;
+}
+
+.text-intro a {
+	font-size: 24pt !important;
+	float: right;
+	clear: right;
+}
+
+.text-zero {
+	position: absolute;
+	top: 100px;
+	left: 1800px;
+	width: 500px;
+}
+
+.text-zero h2 {
+	font-size: 22pt;
+}
+
+.text-zero p {
+	font-size: 16pt;
+}
+
+.text-one {
+	position: absolute;
+	top: 120px;
+	left: 530px;
+	width: 500px;
+}
+
+.text-one h2 {
+	font-size: 22pt;
+}
+
+.text-one p {
+	font-size: 16pt;
+}
+
+.text-two {
+	position: absolute;
+	top: 200px;
+	left: 525px;
+	width: 500px;
+}
+
+.text-two h2 {
+	font-size: 22pt;
+}
+
+.text-two p {
+	font-size: 16pt;
+}
+
+.text-three {
+	position: absolute;
+	top: 200px;
+	left: 525px;
+	top: 55px;
+	left: 100px;
+	width: 500px;
+	text-shadow: 2px 2px #578f9d;
+}
+
+.text-three h2 {
+	font-size: 22pt;
+}
+
+.text-three p {
+	font-size: 16pt;
+}
+
+.fancytext a {
+	border-bottom: 1px solid #FFF;
+	font-size: 12pt;
+}
+
+.fancytext .text-next {
+	float: right;
+}
+
+.bottom-cut {
+	background: #000 url(img/background_repeat.png) top left;
+	position: fixed;
+	top: 700px;
+	height: 100%;
+	width: 100%;
+}
+
+.bottom-cut .subnav {
+	float: left;
+	position: absolute;
+	top: -50px;
+	width: 100%;
+}
+
+.bottom-cut .subnav ul {
+	list-style: none;
+	margin: 0 auto;
+	width: 825px;
+}
+
+.bottom-cut .subnav li {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.bottom-cut .subnav li a {
+	background: #000 url(img/hexxit/background_repeat.png) top left;
+	padding: 10px 20px;
+	font-family: 'Overlock SC', cursive;
+	font-size: 16pt;
+}
+
+.bottom-cut .subnav li .active {
+	border: 2px solid #0189aa;
+	font-size: 18pt;
+}
+
+.hexxit-logo-small {
+	position: absolute;
+	width: 300px;
+	height: 100px;
+	background: transparent url(img/hexxit/hexxitlogo_small.png) no-repeat 10px 10px;
+	padding: 20px;
+}
+
+.syndicate-logo-small {
+	position: absolute;
+	width: 250px;
+	height: 135px;
+	background: transparent url(img/hexxit/footer_logo_syndicate.png) no-repeat 10px 10px;
+	padding: 20px;
+	right: 0;
+	top: -10px;
+}
+
+.mainnav {
+	margin: 35px auto 0;
+	width: 600px;
+	padding: 0;
+	list-style-type: none;
+}
+
+.mainnav li {
+	display: inline-block;
+	margin-right: 40px;
+}
+
+.mainnav li:last-child {
+	margin-right: 0;
+}
+
+.mainnav li a {
+	font-size: 24pt;
+	font-family: 'Overlock SC', cursive;
+}
+
+.content-wrapper {
+	position: absolute;
+	left: 50%;
+}
+
+.content {
+	display: none;
+	position: relative;
+	margin: 100px 0 0;
+	left: -50%;
+	width: 900px;
+	height: 500px;
+	background: #000 url(img/background_repeat.png) top left;
+	-moz-box-shadow: 0 0 15px #000;
+	-webkit-box-shadow: 0 0 15px #000;
+	box-shadow: 0 0 15px #000;
+	overflow: auto;
+}
+
+.content-inside {
+	font-family: 'Overlock SC', cursive;
+	padding: 0 20px;
+	font-size: 14pt;
+}
+
+.content-inside h2 {
+	font-size: 20pt;
+}
+
+.mod {
+	width: 390px;
+	margin-right: 10px;
+	float: left;
+	padding: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background: #1a1a1a url(img/background_repeat2.png);
+}
+
+.mod h3 {
+	margin: 0;
+}
+
+.mod .author {
+	padding-bottom: 10px;
+}
+
+.content-inside a {
+	color: #0189aa;
+}
+
+.content-inside a:hover {
+	color: #18bae1;
+	border-bottom: 1px solid #18bae1;
+}
+
+.akliz-host {
+	background: transparent url(img/aklizhost4.png) top center no-repeat;
+	height: 99px;
+	width: 330px;
+	margin-top: 20px;
+}
+
+.enjin {
+	background: transparent url(img/enjin.png) top center no-repeat;
+	height: 99px;
+}
+
+.akliz-host:hover,
+.enjin:hover {
+	background-position: bottom center;
+}
+
+.akliz-host a:hover {
+	border: none;
+}
+
+.akliz-host a,
+.enjin a {
+	display: block;
+	height: 100%;
+	width: 330px;
+}

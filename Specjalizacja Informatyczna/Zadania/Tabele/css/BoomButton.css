@@ -1,0 +1,16 @@
+.button
+{
+background-color: maroon;
+color: yellow;
+width: 50px;
+height: 35px;
+border-color: navy;
+font-weight: bold;
+}
+.text
+{
+color: black;
+background-color: silver;
+border-color: gray;
+font-weight: 700;
+}

@@ -1,0 +1,13 @@
+body
+{
+	background-image: url(http://mobini.pl/upload/files/129/526/201/856/477/822_kosmos_k7.jpg);
+	background-attachment: fixed
+}
+
+span
+{
+	text-shadow: 1px 1px 15px red;
+	font-family: Comic Sans MS;
+	color: black;
+	background: url(&quot;http://www.przemo.org/phpBB2/forum/files/gwiazdkired_158.gif;) repeat scroll 0% 0% transparent;
+}

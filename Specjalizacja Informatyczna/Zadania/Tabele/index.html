@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+<!--
+ * ----------------------------------------------------------------------------
+ * "THE BEER-WARE LICENSE" (Revision 42):
+ * <admin@panotlet.pl> wrote this file. As long as you retain this notice you
+ * can do whatever you want with this stuff. If we meet some day, and you think
+ * this stuff is worth it, you can buy me a beer in return Paweł Otlewski
+ * ----------------------------------------------------------------------------
+ -->
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Tabelelki z dyskamy</title>
+		<script type="text/javascript" charset="iso-8859-2" src="js/BoomButton.js"></script>
+		<link rel="Stylesheet" type="text/css" href="css/BoomButton.css" />
+	</head>
+	
+	<body>
+	<SCRIPT LANGUAGE="JavaScript">
+		function Info()
+		{if (!confirm("Wizyta na tej stronie może być bardzo niebezpieczna. Kliknij <OK>, jeżeli się nie boisz. Kliknij <Anuluj>, jeżeli nie chcesz ryzykować!"))
+		history.go(-1);return " "}
+		document.writeln(Info())
+	</script>
+		<div id="top">
+			<header id="NAGŁÓWEK"><h1>Dyski SSD</h1></header>
+			<article id="Tabelka">
+				<table style="width: 99%; border-radius: 8px; -moz-border-radius: 8px; text-align: center; padding: 0.5em 1.0em; margin: 0 3px 3px; background: gray; border: 2px solid #999;">
+					<tr style="background-color: red">
+						<td style="width: 15%;">Producent</td>	<td style="width: 15%;">Model</td>	<td style="width: 15%;">Pojemność i interfejs</td>	<td style="width: 55%;">Zdjęcie</td>
+					</tr>
+					<tr style="background-color: white">
+						<td >OCZ</td>	<td >Revo3 X2</td>	<td >960GB PCI-E</td>	<td ><img src="http://www.komputronik.pl/product_picture/5/HDRVD3X2FHPX4960G/OCZ_Revo3_X2_PCIE_960GB_1_5GB/s_230k_IOPs-adde9a68.png"></td>
+					</tr>
+					<tr style="background-color: white">
+						<td >Plextor</td>	<td >N/D</td>	<td >512GB Serial ATA III</td>	<td ><img src="http://www.komputronik.pl/product_picture/5/HDSSDPX512M5P/Plextor_SSD_2_5_512GB_540/450_MB/s_86k_IOPs_7mm-10346ae3.png"></td>
+					</tr>
+					<tr style="background-color: white">
+						<td >OWC</td>	<td >Mercury Accelsior_E2</td>	<td >960GB PCI-E</td>	<td ><img src="http://www.komputronik.pl/product_picture/5/HDSSDOWCSSDPHWE2R960/OWC_Mercury_Accelsior_E2_SSD_960GB_PCIE_810/640MB/s_100k_IOPS_2x_eSATA-a206ff65.png"></td>
+					</tr>
+					<tr style="background-color: white">
+						<td >G.SKILL</td>	<td >Phoenix III</td>	<td >120GB Serial ATA III</td>	<td ><img src="http://www.komputronik.pl/product_picture/5/HDSSDFM25S3120GBP3/G_SKILL_Phoenix_III_SSD_2_5_120GB_550/510_MB/s_60k_IOPs_7mm-ac7893c8.png"></td>
+					</tr>
+					<tr style="background-color: white">
+						<td >Mach Xtreme Technology</td>	<td >DS Fusion GT</td>	<td >128GB Serial ATA III</td>	<td ><img src="http://www.komputronik.pl/product_picture/6/HDSSDMXSSD3MDSFG120G/Mach_Xtreme_DS_Fusion_GT_120GB_540MB/s_490MB/s-1e845966.png"></td>
+					</tr>
+				</table>
+			</article>
+		</div>
+		<div id="gry">
+		<header id="NAGŁÓWEK"><h1>Bajery, bo chcę dostać 6!</h1></header>
+			<article id="Tabelka">
+				<table style="width: 99%; border-radius: 8px; -moz-border-radius: 8px; text-align: center; padding: 0.5em 1.0em; margin: 0 3px 3px; background: gray; border: 2px solid #999;">
+					<tr style="background-color: red">
+						<td style="width: 20%;">Nazwa</td>	<td style="width: 30%;">Opis</td>	<td style="width: 50%;">Bajer</td>
+					</tr>
+					<tr style="background-color: white">
+						<td >BoomButton</td>	<td >Sprobuj kliknac jakis przycisk aby go zniszczyc,<br>musisz wysadzic <u>3</u> przyciski w powietrze.<br></td>	<td ><form name="Boom" onSubmit="return false">
+						<fieldset style="border-color:black;border-style:dotted;width:167px">
+						<!--Wiersz: 1-->
+						<input type="button" class="button" name="button1_1" id="button1_1" value="X" onClick="CheckButton('1_1')" onMouseover="b('1_1')" onMouseout="C()" />
+						<input type="button" class="button" name="button1_2" id="button1_2" value="X" onClick="CheckButton('1_2')" onMouseover="b('1_2')" onMouseout="C()" />
+						<input type="button" class="button" name="button1_3" id="button1_3" value="X" onClick="CheckButton('1_3')" onMouseover="b('1_3')" onMouseout="C()" />
+						<!--Wiersz: 2--><br>
+						<input type="button" class="button" name="button2_1" id="button2_1" value="X" onClick="CheckButton('2_1')" onMouseover="b('2_1')" onMouseout="C()" />
+						<input type="button" class="button" name="button2_2" id="button2_2" value="X" onClick="CheckButton('2_2')" onMouseover="b('2_2')" onMouseout="C()" />
+						<input type="button" class="button" name="button2_3" id="button2_3" value="X" onClick="CheckButton('2_3')" onMouseover="b('2_3')" onMouseout="C()" />
+						<!--Wiersz: 3--><br>
+						<input type="button" class="button" name="button3_1" id="button3_1" value="X" onClick="CheckButton('3_1')" onMouseover="b('3_1')" onMouseout="C()" />
+						<input type="button" class="button" name="button3_2" id="button3_2" value="X" onClick="CheckButton('3_2')" onMouseover="b('3_2')" onMouseout="C()" />
+						<input type="button" class="button" name="button3_3" id="button3_3" value="X" onClick="CheckButton('3_3')" onMouseover="b('3_3')" onMouseout="C()" />
+						<br />
+						<!--Liczniki-->
+						Wynik:<input type="text" name="score" class="text" readonly="yes" value="" id="score" size="2"><br>
+						Szansa:<input type="text" name="left" class="text" readonly="yes" value="" id="left" size="2"><br>
+						<input type="button" onClick="Deafault()" value="Kasuj" style="background-color:black;color:white;border-color:blue">
+						</form>
+
+						</fieldset></td>
+					</tr>
+					<tr style="background-color: white">
+						<td>IP Adress Checker</td>	<td>Bajer pokazujący IP</td>
+						<td>
+							<iframe src="http://www.iptrackeronline.com/locate-ip-on-map.php?lang=1" width="260" height="450" scrolling="no" marginheight="0" marginwidth="0" frameborder="0" name="iptrackeronline_gadget"></iframe></a>
+						</td>
+					</tr>
+				</table>
+			</article>
+		</div>
+		<div id="bottom">
+			<table style="width: 99%;">
+				<tr>
+					<td style="text-align: left;"><footer>&copy <a href="http://panotlet.pl">PanOtlet.pl</a></footer></td>	<td style="text-align: right;"><a href="#top">Wróć do góry</a></td>
+				</tr>
+			</table>
+		</div>
+	</body>
+</html>
