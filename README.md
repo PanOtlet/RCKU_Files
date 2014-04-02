@@ -14,3 +14,8 @@ Korzystanie z tego jest darmowe zgodnie z licencją X11 (MIT)
 - SOiSK (Systemy Operacyjne i Sieci Komputerowe)
 - Specjalizacja Informatyczna (Zajęcia ze specjalizacji informatycznej, a dokładniej Aplikacje Internetowe)
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> f67a55d0fb05cf1b2efa95138e10a735831093f4
