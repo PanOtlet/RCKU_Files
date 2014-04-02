@@ -4,12 +4,13 @@ using namespace std;
 
 class odcinek
 {
-      public:
+     
       double x_poc;
       double y_poc;
       double x_kon;
       double y_kon;
-      void zapisz(double x_p, double y_p, double x_k, double y_k)
+      public:
+      odcinek (double x_p, double y_p, double x_k, double y_k)
       {
            x_poc=x_p;
            y_poc=y_p;
@@ -20,9 +21,10 @@ class odcinek
 	{
 		cout<<"("<<x_poc<<","<<y_poc<<")";
 		cout<<" ";
-		cout<<"("<<x_poc<<","<<y_poc<<")";	
+		cout<<"("<<x_kon<<","<<y_kon<<")";	
 	
 	}
+ friend double dlu(odcinek od);
 };
 double dlu(odcinek od)
 {
@@ -32,9 +34,8 @@ double dlu(odcinek od)
 };
 int main()
 {
-	odcinek AB,CD;
 	double xp,yp,xk,yk;
-	CD.zapisz(0,0,3,0);
+	odcinek CD(0,0,3,0);
 	cout<<"oto towje wspolzrendene CD:\n";
 	CD.wypisz();
 	cout<<'\n'<<"dlugosc CD:";
@@ -47,8 +48,8 @@ int main()
 	cout<<"podaj koniec (x)";
 	cin>>xk;
 	cout<<"podaj koniec (y)";
-	cin>>xk;
-	AB.zapisz(xp,yp,xk,yk);
+	cin>>yk;
+	odcinek AB(xp,yp,xk,yk);
 	cout<<"oto towje wspolzrendene:\n";
 	AB.wypisz();
 	cout<<'\n'<<"dlugosc AB:";

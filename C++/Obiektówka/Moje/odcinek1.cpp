@@ -9,7 +9,7 @@ class odcinek
       double y_poc;
       double x_kon;
       double y_kon;
-      void zapisz(double x_p, double y_p, double x_k, double y_k)
+      odcinek (double x_p, double y_p, double x_k, double y_k)
       {
            x_poc=x_p;
            y_poc=y_p;
@@ -32,26 +32,25 @@ double dlu(odcinek od)
 };
 int main()
 {
-	odcinek AB,CD;
 	double xp,yp,xk,yk;
-	CD.zapisz(0,0,3,0);
+	odcinek CD(0,0,3,0);
 	cout<<"oto towje wspolzrendene CD:\n";
 	CD.wypisz();
 	cout<<'\n'<<"dlugosc CD:";
 	cout<<dlu(CD)<<'\n';
-	cout<<"podaj wspulrzedne odcinka AB:\n";
-	cout<<"podaj poczantek (x)";
+	cout<<"podaj wspolrzedne odcinka AB:\n";
+	cout<<"podaj poczatek (x)";
 	cin>>xp;
-	cout<<"podaj poczantek (y)";
+	cout<<"podaj poczatek (y)";
 	cin>>yp;
 	cout<<"podaj koniec (x)";
 	cin>>xk;
 	cout<<"podaj koniec (y)";
 	cin>>xk;
-	AB.zapisz(xp,yp,xk,yk);
+	odcinek AB(xp,yp,xk,yk);
 	cout<<"oto towje wspolzrendene:\n";
 	AB.wypisz();
 	cout<<'\n'<<"dlugosc AB:";
 	cout<<dlu(AB)<<'\n';
-	
+    system("pause");	
 }
