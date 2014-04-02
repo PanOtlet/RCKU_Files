@@ -61,7 +61,7 @@ ul pod(ul &u_1,ul &u_2)
       u_3.mianownik=u_1.mianownik*u_2.licznik;
       return u_3;
     }
-u dod (ulamek u_1, ulamek u_2)
+ul dod (ul u_1, ul u_2)
   {
       u u_3;
       int a=abs(u_1,mianownik);
