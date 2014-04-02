@@ -62,7 +62,7 @@ ul pod(ul &u_1,ul &u_2)
       return u_3;
     }
 u dod (ulamek u_1, ulamek u_2)
-{
+  {
       u u_3;
       int a=abs(u_1,mianownik);
       int b=abs(u_2,mianownik);
@@ -76,7 +76,23 @@ u dod (ulamek u_1, ulamek u_2)
       u_3.mianownik=nww;
       u_3.licznik=nww/c*u_1.licznik+nww/d*u_2.licznik;
       return u_3;
-}
+  }
+u odejmij (ulamek u_1, ulamek u_2)
+  {
+      u u_3;
+      int a=abs(u_1,mianownik);
+      int b=abs(u_2,mianownik);
+      int c=a, d=b;
+      while (a!=b)
+            if (a-b>0)
+               a=a-b;
+            else
+                b=b-a;
+      int nww=)c*d)/a;
+      u_3.mianownik=nww;
+      u_3.licznik=nww/c*u_1.licznik-nww/d*u_2.licznik;
+      return u_3;
+  }
 
 
 int main()
@@ -93,7 +109,6 @@ int main()
    cout<<'\n';
   cout<<"drugi ulamek : ";
   ul2.wypisz();
-  
   cout<<'\n';
   cout<<"poskruconiu: ";
   ul2.skc();
