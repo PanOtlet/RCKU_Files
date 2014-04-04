@@ -1,0 +1,6 @@
+id_klasy	symbol klasy	przedm
+1	a	j_pol
+2	b	biol
+3	c	mat
+4	d	inf
+

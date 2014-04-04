@@ -1,0 +1,13 @@
+IDprzedmiotu;NazwaPrzedmiotu;Nazwisko_naucz;Imie_naucz;
+1;polski;Kowalewski;Janusz;
+2;angielski;Nowakowska;Halina;
+3;niemiecki;Bednarek;Alina;
+4;historia;Kisiel;Anna;
+5;wos;Wydmuch;Sebastian;
+6;matematyka;Kosowska;Leokadia;
+7;fizyka;Kosno;Edward;
+8;geografia;Wiaderek;Adam;
+9;chemia;Wypych;Halina;
+10;informatyka;Janik;Wojciech;
+11;wf;Bartnik;Jan;
+

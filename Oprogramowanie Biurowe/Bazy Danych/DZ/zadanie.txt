@@ -1,0 +1,15 @@
+Ka¿d¹ tworzon¹ kwerendê zapisz pod nazw¹ bêd¹c¹ kolejn¹ cyfr¹ arabsk¹
+
+  1.. Utwórz kwerendê szczegó³ow¹ wyœwietlaj¹c¹ kolejno nastêpuj¹ce dane: Nazwisko ucznia, Imiê ucznia, Oznaczenie klasy, Datê uzyskania oceny, Ocenê, Nazwê przedmiotu, Nazwisko nauczyciela, Rodzaj sprawdzianu.
+  2.. Posortuj dane w kwerendzie Pierwszej alfabetycznie, od A do Z, wg nazwiska (i imienia) ucznia
+  3.. Posortuj dane w kwerendzie Pierwszej wg daty otrzymania oceny (od najm³odszej do najstarszej) i jednoczeœnie ukryj kolumnê data
+  4.. [Dla chêtnych] Dokonaj takich zmian w kwerendzie Pierwszej, aby dane by³y sortowane kolejno: wg oceny - od celuj¹cej, wg przedmiotu (alfabetycznie, od Z do A), wg klasy (od 2A do 2E)
+  5.. Wyœwietl rekordy, w których s¹ oceny dobre (w kwerendzie Drugiej)
+  6.. Wyœwietl rekordy, w których s¹ oceny dobre lub dostateczne (w kwerendzie Trzeciej)
+  7.. Wyœwietl rekordy, w których data to co najmniej 1 stycznia 2004
+  8.. Wyœwietl rekordy spe³niaj¹ce warunki (w kwerendzie Pierwszej):
+    a.. ocena bardzo dobra z angielskiego lub niemieckiego
+lub
+
+    b.. nazwisko ucznia koñczy siê na ski lub ska i ocena zosta³o wystawiona pomiêdzy 20 listopada 2003 a 5 kwietnia 2004r.
+
