@@ -5,25 +5,25 @@ using namespace std;
 class ul
 {
   private:
-  int licznik;
-  int mianownik;
-	public:
-    int zapisz(int l,int m);
-    void wypisz()
-    {
-       cout<<licznik<<"/"<<mianownik;
-    }
-    	ul()
-	{
-		licznik=1;
-		mianownik=1;
-	}
-	 	ul(int l,int m);
-  void skc();
-  ul pom(ul u_2);
-  ul pod(ul u_2);
-  ul dod(ul u_2);
-  ul ode(ul u_2);
+          int licznik;
+          int mianownik;
+  public:
+         int zapisz(int l,int m);
+         void wypisz()
+         {
+              cout<<licznik<<"/"<<mianownik;
+         }
+    	      ul()
+         {
+		      licznik=1;
+		      mianownik=1;
+         }
+	 	 ul(int l,int m);
+         void skc();
+         ul pom(ul u_2);
+         ul pod(ul u_2);
+         ul dod(ul u_2);
+         ul ode(ul u_2);
 
 };
 
