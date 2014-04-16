@@ -2,75 +2,77 @@
 
 using namespace std;
 
-class kolo
+class pudelko
 {
       private:
-              float promien;
+              int wys;
+              int bok1;
+              int bok2;
       public:
-             kolo()
+             pudelko()
              {
-              promien=0;
+              wys=0;
+              bok1=0;
+              bok2=0;
              }
-             kolo(float r)
+             pudelko (int w, int b1, int b2)
              {
-              promien=r;
+              wys=w;
+              bok1=b1;
+              bok2=b2;
              }
-             float oblicz_pole();
-             float oblicz_obwod();
+             int oblicz_pole();
+             int oblicz_objetosc();
+             int oblicz_krawedzie();
              void wypisz_pole();
-             void wypisz_obwod();
-             friend void Porownaj_kola(kolo A, kolo B);
+             void wypisz_objetosc();
+             void wypisz_krawedzie();
 };
 
-float kolo::oblicz_pole()
+int pudelko::oblicz_pole()
 {
-    return 3.14*(promien*promien);
+    return (2*bok1*bok2)+(2*bok2*wys)+(2*bok1*wys);
 }
 
-float kolo::oblicz_obwod()
+int pudelko::oblicz_objetosc()
 {
-    return 2*3.14*promien;
+    return (bok1*bok2)*wys;
 }
 
-void kolo::wypisz_pole()
+int pudelko::oblicz_krawedzie()
+{
+    return 4*bok1+4*bok2+4*wys;
+}
+
+void pudelko::wypisz_pole()
 {
      cout<<oblicz_pole();
 }
 
-void kolo::wypisz_obwod()
+void pudelko::wypisz_objetosc()
 {
-     cout<<oblicz_obwod();
+     cout<<oblicz_objetosc();
 }
 
-void Porownaj_kola(kolo A, kolo B)
+void pudelko::wypisz_krawedzie()
 {
-     float a,b;
-     a=A.promien;
-     b=B.promien;
-     if (a==b)
-        cout<<"Kola sa rowne";
-     else
-         cout<<"Kola nie sa rowne";
-     cout<<'\n';
+     cout<<oblicz_krawedzie();
 }
 
 int main()
 {
-    float r1,r2;
-    cout<<"Podaj promien K1: ";
-    cin>>r1;
-    kolo K1(r1);
-    cout<<"Podaj promien K2: ";
-    cin>>r2;
-    kolo K2(r2);
+    float w,b1,b2;
+    cout<<"Podaj wysokosc prostopadlosciu: ";
+    cin>>w;
+    cout<<"Podaj bok 1 prostopadlosciu: ";
+    cin>>b1;
+    cout<<"Podaj bok 2 prostopadlosciu: ";
+    cin>>b2;
+    pudelko zz(w,b1,b2);
     cout<<'\n';
-    cout<<"Pole:"<<'\n';
-     cout<<"K1: ";K1.wypisz_pole();cout<<'\n';
-     cout<<"K2: ";K2.wypisz_pole();cout<<'\n';
-    cout<<'\n'<<"Obwod:"<<'\n';
-     cout<<"K1: ";K1.wypisz_obwod();cout<<'\n';
-     cout<<"K2: ";K2.wypisz_obwod();cout<<'\n'<<'\n';
-    Porownaj_kola(r1,r2);
+     cout<<"Pole: ";zz.wypisz_pole();cout<<'\n';
+     cout<<"Objetosc: ";zz.wypisz_objetosc();cout<<'\n';
+     cout<<"Suma krawedzi: ";zz.wypisz_krawedzie();cout<<'\n';
     cout<<'\n';
     system ("pause");
     return 0;
