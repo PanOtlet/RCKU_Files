@@ -1,20 +1,22 @@
 #include<iostream>
 #include<cmath>
-//nie gotowy
+
 using namespace std;
 
-class kula
+class walec
 {
       private:
-              int wys;
-              int pro;
+              double wys;
+              double pro;
       public:
-             kula()
+             walec()
              {
+              wys=0;
               pro=0;
              }
-             kula (int r)
+             walec (double w, double r)
              {
+              wys=w;
               pro=r;
              }
              double oblicz_pole();
@@ -23,32 +25,34 @@ class kula
              void wypisz_objetosc();
 };
 
-double kula::oblicz_pole()
+double walec::oblicz_pole()
 {
-    return (4*M_PI*(pro*pro));
+    return (4*M_PI*(pro*pro)*wys);
 }
 
-double kula::oblicz_objetosc()
-{
-    return ((M_PI*(pro*pro*pro))/3)*4;
+double walec::oblicz_objetosc()
+{   
+    return (2*M_PI*(pro*pro))+(2*M_PI*pro*wys);
 }
 
-void kula::wypisz_pole()
+void walec::wypisz_pole()
 {
      cout<<oblicz_pole();
 }
 
-void kula::wypisz_objetosc()
+void walec::wypisz_objetosc()
 {
      cout<<oblicz_objetosc();
 }
 
 int main()
 {
-    float r;
+    double r,w;
     cout<<"Podaj srednice: ";
     cin>>r;
-    kula zz(r);
+    cout<<"Podaj wysokosc: ";
+    cin>>w;
+    walec zz(w,r);
     cout<<'\n';
      cout<<"Pole: ";zz.wypisz_pole();cout<<'\n';
      cout<<"Objetosc: ";zz.wypisz_objetosc();cout<<'\n';
