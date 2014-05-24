@@ -13,35 +13,32 @@ OnFwd(OUT_BC,75);
 until (Sensor(IN_3)<50); //1_2
       OnFwd(OUT_C,75);
       Off(OUT_B);
-      Wait(250);
+      Wait(285);
 OnFwd(OUT_BC,75);
 until (Sensor(IN_3)<50); //2_1
       OnFwd(OUT_B,75);
       Off(OUT_C);
-      Wait(200);
+      Wait(182);
 OnFwd(OUT_BC,75);
 until (Sensor(IN_3)<50); //2_2
       OnFwd(OUT_B,75);
       Off(OUT_C);
-      Wait(250);
+      Wait(270);
 OnFwd(OUT_BC,75);
 until (Sensor(IN_3)<50); //3_1
       OnFwd(OUT_C,75);
       Off(OUT_B);
-      Wait(200);
+      Wait(230);
 OnFwd(OUT_BC,75);
 until (Sensor(IN_3)<50); //3_2
       OnFwd(OUT_C,75);
       Off(OUT_B);
-      Wait(350);
-OnFwd(OUT_C,75);
-Wait(500);
-Off(OUT_BC);
+      Wait(750);
 OnFwd(OUT_BC,75);
 until (Sensor(IN_3)<50); //1_1
       OnFwd(OUT_C,75);
       Off(OUT_B);
-      Wait(250);
+      Wait(500);
 OnFwd(OUT_BC,75);
 until (Sensor(IN_3)<50); //1_2
       OnFwd(OUT_C,75);
