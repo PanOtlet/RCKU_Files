@@ -3,39 +3,38 @@ Index	Identifier	Type	Flag	Data	Size	RefCount
 0	__D0SetSensorLight_inline_main	6	1	0	4	3
 1	__D0main	6	1	4	4	100
 2	__DU0SetSensorLight_inline_main	5	1	8	4	2
-3	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	12	4	28
+3	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	12	4	14
 4	__signed_stack_001main	6	1	16	4	24
 5	__SetSensorLight_7qG2_bActive_7qG2_000_inline_main	1	1	20	1	2
 6	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	21	1	2
-7	__SetSensorLight_7qG2_port_7qG2_000_inline_main	1	1	22	1	4
-8	__constVal32	2	0	23	1	123
-9	____initialize_global_data_return	1	1	24	1	3
+7	____initialize_global_data_return	1	1	22	1	3
+8	__SetSensorLight_7qG2_port_7qG2_000_inline_main	1	1	23	1	4
+9	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main	1	1	24	1	2
 10	__constVal96	2	0	25	1	41
 11	__constVal63	2	0	26	1	41
-12	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main	1	1	27	1	2
-13	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main	1	1	28	1	2
-14	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	29	1	2
-15	__constVal2	2	0	30	1	25
-16	__PFTmp	1	1	31	1	1
-17	____ResetSensorSubroutine_return	1	1	32	1	3
-18	__ResetSensorPort	1	1	33	1	3
-19	__ResetSensorTmp	1	1	34	1	2
+12	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	27	1	2
+13	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main	1	1	28	1	2
+14	__constVal32	2	0	29	1	123
+15	____ResetSensorSubroutine_return	1	1	30	1	3
+16	__constVal2	2	0	31	1	25
+17	__ResetSensorPort	1	1	32	1	3
+18	__ResetSensorTmp	1	1	33	1	2
+19	__constVal3	2	0	34	1	41
 20	__constVal1	2	0	35	1	16
 21	__zfSetSensorLight_inline_main	1	1	36	1	2
-22	__constVal0	2	1	37	1	138
-23	__constVal3	2	0	38	1	41
-24	__zfmain	1	1	39	1	60
-25	__OUT_BC	7	0	40	4	14
-26	__OUT_BC.__OUT_BC_type	1	0	0	1	0
+22	__zfmain	1	1	37	1	60
+23	__constVal0	2	1	38	1	138
+24	__OUT_BC	7	0	40	4	14
+25	__OUT_BC.__OUT_BC_type	1	0	0	1	0
 #SOURCES
 Clump	Line	PC	Source
-0	2	0	#line 2 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
+0	2	0	#line 2 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
 0	3	0		subcall __initialize_global_data, ____initialize_global_data_return
-0	2	2	#line 2 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	2	2	#line 2 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
+0	2	2	#line 2 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	2	2	#line 2 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
 0	3	2		set __SetSensorLight_7qG2_port_7qG2_000_inline_main, 2
-0	2	5	#line 2 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	3	5	#line 3 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
+0	2	5	#line 2 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	3	5	#line 3 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
 0	4	5		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_main, __constVal1
 0	3729	7	#line 3729 "NXCDefs.h"
 0	3730	7		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
@@ -74,590 +73,590 @@ Clump	Line	PC	Source
 0	3695	40	#pragma macro 4
 0	3695	40		mov __ResetSensorPort, __SetSensorLight_7qG2_port_7qG2_000_inline_main
 0	3695	42		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
-0	3655	44	#line 3655 "NXCDefs.h"
+0	5954	44	#line 5954 "NXCDefs.h"
 0	3694	44	#line 3694 "NXCDefs.h"
 0	3732	44	#line 3732 "NXCDefs.h"
-0	3	44	#line 3 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	3	44	#line 3 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
+0	3	44	#line 3 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	3	44	#line 3 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
 0	4	44		set __D0main, 75
-0	4	47	#line 4 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
+0	4	47	#line 4 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
 0	5	47	#pragma macro 7
 0	5	47		setout __constVal1, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	3664	70	#line 3664 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	4	70	#line 4 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	4	70	#line 4 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	5	70		set __Wait_7qG2_ms_7qG2_000_inline_main, 250
-0	4	73	#line 4 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
+0	5963	70	#line 5963 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	4	70	#line 4 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	4	70	#line 4 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	5	70		set __Wait_7qG2_ms_7qG2_000_inline_main, 260
+0	4	73	#line 4 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
 0	7921	73	#line 7921 "NXCDefs.h"
-0	7922	73		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
-0	7921	76	#line 7921 "NXCDefs.h"
-0	5	76	#line 5 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	6	76	#line 6 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	7	76	#pragma macro 7
-0	7	76		setout __constVal1, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	3681	99	#line 3681 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	6	99	#line 6 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	6	99	#line 6 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	7	99		set __D0main, 75
-0	7	102	#line 7 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	8	102	#pragma macro 7
-0	8	102		setout __OUT_BC, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	3688	125	#line 3688 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	7	125	#line 7 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	7	125	#line 7 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	8	125		getin __signed_stack_001main, __constVal2, 4
-0	7	129	#line 7 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	7	129	#line 7 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	8	129		set __D0main, 50
-0	7	132	#line 7 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	8	132		cmp 0, __zfmain, __signed_stack_001main, __D0main
-0	7	136	#line 7 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	7	136	#line 7 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	8	136		not __D0main, __zfmain
-0	8	139	#line 8 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	9	139		tst 5, __zfmain, __D0main
-0	8	142	#line 8 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	9	142		brtst 4, __NXC_Label_498, __zfmain
-0	8	145	#line 8 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	8	145	#line 8 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	9	145		jmp __NXC_Label_497
-0	8	147	#line 8 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	8	147	#line 8 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	9	147		set __D0main, 75
-0	9	150	#line 9 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	10	150	#pragma macro 7
-0	10	150		setout __constVal2, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	3721	173	#line 3721 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	9	173	#line 9 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	10	173	#line 10 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	11	173	#pragma macro 7
-0	11	173		setout __constVal1, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	3724	196	#line 3724 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	10	196	#line 10 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	10	196	#line 10 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	11	196		set __Wait_7qG2_ms_7qG2_000_inline_main, 250
-0	10	199	#line 10 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	7921	199	#line 7921 "NXCDefs.h"
-0	7922	199		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
-0	7921	202	#line 7921 "NXCDefs.h"
-0	11	202	#line 11 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	11	202	#line 11 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	12	202		set __D0main, 75
-0	12	205	#line 12 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	13	205	#pragma macro 7
-0	13	205		setout __OUT_BC, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	3741	228	#line 3741 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	12	228	#line 12 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	12	228	#line 12 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	13	228		getin __signed_stack_001main, __constVal2, 4
-0	12	232	#line 12 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	12	232	#line 12 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	13	232		set __D0main, 50
-0	12	235	#line 12 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	13	235		cmp 0, __zfmain, __signed_stack_001main, __D0main
-0	12	239	#line 12 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	12	239	#line 12 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	13	239		not __D0main, __zfmain
-0	13	242	#line 13 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	14	242		tst 5, __zfmain, __D0main
-0	13	245	#line 13 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	14	245		brtst 4, __NXC_Label_510, __zfmain
-0	13	248	#line 13 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	13	248	#line 13 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	14	248		jmp __NXC_Label_509
-0	13	250	#line 13 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	13	250	#line 13 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	14	250		set __D0main, 75
-0	14	253	#line 14 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	15	253	#pragma macro 7
-0	15	253		setout __constVal2, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	3774	276	#line 3774 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	14	276	#line 14 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	15	276	#line 15 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	16	276	#pragma macro 7
-0	16	276		setout __constVal1, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	3777	299	#line 3777 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	15	299	#line 15 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	15	299	#line 15 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	16	299		set __Wait_7qG2_ms_7qG2_000_inline_main, 250
-0	15	302	#line 15 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
+0	7922	73		wait 260
+0	7921	75	#line 7921 "NXCDefs.h"
+0	5	75	#line 5 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	6	75	#line 6 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	7	75	#pragma macro 7
+0	7	75		setout __constVal1, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	5980	98	#line 5980 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	6	98	#line 6 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	6	98	#line 6 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	7	98		set __D0main, 75
+0	7	101	#line 7 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	8	101	#pragma macro 7
+0	8	101		setout __OUT_BC, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	5987	124	#line 5987 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	7	124	#line 7 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	7	124	#line 7 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	8	124		getin __signed_stack_001main, __constVal2, 4
+0	7	128	#line 7 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	7	128	#line 7 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	8	128		set __D0main, 50
+0	7	131	#line 7 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	8	131		cmp 0, __zfmain, __signed_stack_001main, __D0main
+0	7	135	#line 7 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	7	135	#line 7 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	8	135		not __D0main, __zfmain
+0	8	138	#line 8 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	9	138		tst 5, __zfmain, __D0main
+0	8	141	#line 8 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	9	141		brtst 4, __NXC_Label_613, __zfmain
+0	8	144	#line 8 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	8	144	#line 8 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	9	144		jmp __NXC_Label_612
+0	8	146	#line 8 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	8	146	#line 8 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	9	146		set __D0main, 75
+0	9	149	#line 9 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	10	149	#pragma macro 7
+0	10	149		setout __constVal2, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6020	172	#line 6020 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	9	172	#line 9 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	10	172	#line 10 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	11	172	#pragma macro 7
+0	11	172		setout __constVal1, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6023	195	#line 6023 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	10	195	#line 10 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	10	195	#line 10 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	11	195		set __Wait_7qG2_ms_7qG2_000_inline_main, 250
+0	10	198	#line 10 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	7921	198	#line 7921 "NXCDefs.h"
+0	7922	198		wait 250
+0	7921	200	#line 7921 "NXCDefs.h"
+0	11	200	#line 11 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	11	200	#line 11 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	12	200		set __D0main, 75
+0	12	203	#line 12 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	13	203	#pragma macro 7
+0	13	203		setout __OUT_BC, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6040	226	#line 6040 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	12	226	#line 12 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	12	226	#line 12 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	13	226		getin __signed_stack_001main, __constVal2, 4
+0	12	230	#line 12 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	12	230	#line 12 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	13	230		set __D0main, 50
+0	12	233	#line 12 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	13	233		cmp 0, __zfmain, __signed_stack_001main, __D0main
+0	12	237	#line 12 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	12	237	#line 12 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	13	237		not __D0main, __zfmain
+0	13	240	#line 13 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	14	240		tst 5, __zfmain, __D0main
+0	13	243	#line 13 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	14	243		brtst 4, __NXC_Label_625, __zfmain
+0	13	246	#line 13 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	13	246	#line 13 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	14	246		jmp __NXC_Label_624
+0	13	248	#line 13 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	13	248	#line 13 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	14	248		set __D0main, 75
+0	14	251	#line 14 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	15	251	#pragma macro 7
+0	15	251		setout __constVal2, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6073	274	#line 6073 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	14	274	#line 14 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	15	274	#line 15 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	16	274	#pragma macro 7
+0	16	274		setout __constVal1, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6076	297	#line 6076 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	15	297	#line 15 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	15	297	#line 15 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	16	297		set __Wait_7qG2_ms_7qG2_000_inline_main, 250
+0	15	300	#line 15 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	7921	300	#line 7921 "NXCDefs.h"
+0	7922	300		wait 250
 0	7921	302	#line 7921 "NXCDefs.h"
-0	7922	302		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
-0	7921	305	#line 7921 "NXCDefs.h"
-0	16	305	#line 16 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	16	305	#line 16 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	17	305		set __D0main, 75
-0	17	308	#line 17 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	18	308	#pragma macro 7
-0	18	308		setout __OUT_BC, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	3794	331	#line 3794 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	17	331	#line 17 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	17	331	#line 17 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	18	331		getin __signed_stack_001main, __constVal2, 4
-0	17	335	#line 17 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	17	335	#line 17 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	18	335		set __D0main, 50
-0	17	338	#line 17 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	18	338		cmp 0, __zfmain, __signed_stack_001main, __D0main
-0	17	342	#line 17 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	17	342	#line 17 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	18	342		not __D0main, __zfmain
-0	18	345	#line 18 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	19	345		tst 5, __zfmain, __D0main
-0	18	348	#line 18 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	19	348		brtst 4, __NXC_Label_522, __zfmain
-0	18	351	#line 18 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	18	351	#line 18 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	19	351		jmp __NXC_Label_521
-0	18	353	#line 18 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	18	353	#line 18 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	19	353		set __D0main, 75
-0	19	356	#line 19 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	20	356	#pragma macro 7
-0	20	356		setout __constVal1, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	3827	379	#line 3827 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	19	379	#line 19 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	20	379	#line 20 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	21	379	#pragma macro 7
-0	21	379		setout __constVal2, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	3830	402	#line 3830 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	20	402	#line 20 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	20	402	#line 20 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	21	402		set __Wait_7qG2_ms_7qG2_000_inline_main, 200
-0	20	405	#line 20 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	7921	405	#line 7921 "NXCDefs.h"
-0	7922	405		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
-0	7921	408	#line 7921 "NXCDefs.h"
-0	21	408	#line 21 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	21	408	#line 21 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	22	408		set __D0main, 75
-0	22	411	#line 22 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	23	411	#pragma macro 7
-0	23	411		setout __OUT_BC, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	3847	434	#line 3847 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	22	434	#line 22 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	22	434	#line 22 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	23	434		getin __signed_stack_001main, __constVal2, 4
-0	22	438	#line 22 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	22	438	#line 22 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	23	438		set __D0main, 50
-0	22	441	#line 22 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	23	441		cmp 0, __zfmain, __signed_stack_001main, __D0main
-0	22	445	#line 22 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	22	445	#line 22 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	23	445		not __D0main, __zfmain
-0	23	448	#line 23 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	24	448		tst 5, __zfmain, __D0main
-0	23	451	#line 23 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	24	451		brtst 4, __NXC_Label_534, __zfmain
-0	23	454	#line 23 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	23	454	#line 23 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	24	454		jmp __NXC_Label_533
-0	23	456	#line 23 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	23	456	#line 23 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	24	456		set __D0main, 75
-0	24	459	#line 24 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	25	459	#pragma macro 7
-0	25	459		setout __constVal1, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	3880	482	#line 3880 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	24	482	#line 24 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	25	482	#line 25 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	26	482	#pragma macro 7
-0	26	482		setout __constVal2, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	3883	505	#line 3883 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	25	505	#line 25 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	25	505	#line 25 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	26	505		set __Wait_7qG2_ms_7qG2_000_inline_main, 275
-0	25	508	#line 25 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	7921	508	#line 7921 "NXCDefs.h"
-0	7922	508		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
-0	7921	511	#line 7921 "NXCDefs.h"
-0	26	511	#line 26 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	26	511	#line 26 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	27	511		set __D0main, 75
-0	27	514	#line 27 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	28	514	#pragma macro 7
-0	28	514		setout __OUT_BC, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	3900	537	#line 3900 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	27	537	#line 27 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	27	537	#line 27 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	28	537		getin __signed_stack_001main, __constVal2, 4
-0	27	541	#line 27 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	27	541	#line 27 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	28	541		set __D0main, 50
-0	27	544	#line 27 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	28	544		cmp 0, __zfmain, __signed_stack_001main, __D0main
-0	27	548	#line 27 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	27	548	#line 27 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	28	548		not __D0main, __zfmain
-0	28	551	#line 28 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	29	551		tst 5, __zfmain, __D0main
-0	28	554	#line 28 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	29	554		brtst 4, __NXC_Label_546, __zfmain
-0	28	557	#line 28 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	28	557	#line 28 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	29	557		jmp __NXC_Label_545
-0	28	559	#line 28 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	28	559	#line 28 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	29	559		set __D0main, 75
-0	29	562	#line 29 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	30	562	#pragma macro 7
-0	30	562		setout __constVal2, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	3933	585	#line 3933 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	29	585	#line 29 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	30	585	#line 30 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	31	585	#pragma macro 7
-0	31	585		setout __constVal1, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	3936	608	#line 3936 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	30	608	#line 30 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	30	608	#line 30 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	31	608		set __Wait_7qG2_ms_7qG2_000_inline_main, 200
-0	30	611	#line 30 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	7921	611	#line 7921 "NXCDefs.h"
-0	7922	611		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
-0	7921	614	#line 7921 "NXCDefs.h"
-0	31	614	#line 31 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	31	614	#line 31 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	32	614		set __D0main, 75
-0	32	617	#line 32 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	33	617	#pragma macro 7
-0	33	617		setout __OUT_BC, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	3953	640	#line 3953 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	32	640	#line 32 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	32	640	#line 32 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	33	640		getin __signed_stack_001main, __constVal2, 4
-0	32	644	#line 32 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	32	644	#line 32 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	33	644		set __D0main, 50
-0	32	647	#line 32 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	33	647		cmp 0, __zfmain, __signed_stack_001main, __D0main
-0	32	651	#line 32 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	32	651	#line 32 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	33	651		not __D0main, __zfmain
-0	33	654	#line 33 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	34	654		tst 5, __zfmain, __D0main
-0	33	657	#line 33 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	34	657		brtst 4, __NXC_Label_558, __zfmain
-0	33	660	#line 33 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	33	660	#line 33 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	34	660		jmp __NXC_Label_557
-0	33	662	#line 33 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	33	662	#line 33 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	34	662		set __D0main, 75
-0	34	665	#line 34 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	35	665	#pragma macro 7
-0	35	665		setout __constVal2, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	3986	688	#line 3986 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	34	688	#line 34 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	35	688	#line 35 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	36	688	#pragma macro 7
-0	36	688		setout __constVal1, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	3989	711	#line 3989 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	35	711	#line 35 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	35	711	#line 35 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	36	711		set __Wait_7qG2_ms_7qG2_000_inline_main, 350
-0	35	714	#line 35 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	7921	714	#line 7921 "NXCDefs.h"
-0	7922	714		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
-0	7921	717	#line 7921 "NXCDefs.h"
-0	36	717	#line 36 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	36	717	#line 36 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	37	717		set __D0main, 75
-0	37	720	#line 37 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	38	720	#pragma macro 7
-0	38	720		setout __constVal2, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	4006	743	#line 4006 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	37	743	#line 37 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	37	743	#line 37 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	38	743		set __Wait_7qG2_ms_7qG2_000_inline_main, 500
-0	37	746	#line 37 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	7921	746	#line 7921 "NXCDefs.h"
-0	7922	746		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
-0	7921	749	#line 7921 "NXCDefs.h"
-0	38	749	#line 38 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	39	749	#line 39 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	40	749	#pragma macro 7
-0	40	749		setout __OUT_BC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	4019	772	#line 4019 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	39	772	#line 39 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	39	772	#line 39 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	40	772		set __D0main, 75
-0	40	775	#line 40 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	41	775	#pragma macro 7
-0	41	775		setout __OUT_BC, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	4026	798	#line 4026 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	40	798	#line 40 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	40	798	#line 40 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	41	798		getin __signed_stack_001main, __constVal2, 4
-0	40	802	#line 40 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	40	802	#line 40 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	41	802		set __D0main, 50
-0	40	805	#line 40 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	41	805		cmp 0, __zfmain, __signed_stack_001main, __D0main
-0	40	809	#line 40 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	40	809	#line 40 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	41	809		not __D0main, __zfmain
-0	41	812	#line 41 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	42	812		tst 5, __zfmain, __D0main
-0	41	815	#line 41 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	42	815		brtst 4, __NXC_Label_574, __zfmain
-0	41	818	#line 41 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	41	818	#line 41 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	42	818		jmp __NXC_Label_573
-0	41	820	#line 41 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	41	820	#line 41 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	42	820		set __D0main, 75
-0	42	823	#line 42 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	43	823	#pragma macro 7
-0	43	823		setout __constVal2, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	4059	846	#line 4059 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	42	846	#line 42 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	43	846	#line 43 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	44	846	#pragma macro 7
-0	44	846		setout __constVal1, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	4062	869	#line 4062 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	43	869	#line 43 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	43	869	#line 43 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	44	869		set __Wait_7qG2_ms_7qG2_000_inline_main, 250
-0	43	872	#line 43 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	7921	872	#line 7921 "NXCDefs.h"
-0	7922	872		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
-0	7921	875	#line 7921 "NXCDefs.h"
-0	44	875	#line 44 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	44	875	#line 44 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	45	875		set __D0main, 75
-0	45	878	#line 45 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	46	878	#pragma macro 7
-0	46	878		setout __OUT_BC, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	4079	901	#line 4079 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	45	901	#line 45 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	45	901	#line 45 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	46	901		getin __signed_stack_001main, __constVal2, 4
-0	45	905	#line 45 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	45	905	#line 45 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	46	905		set __D0main, 50
-0	45	908	#line 45 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	46	908		cmp 0, __zfmain, __signed_stack_001main, __D0main
-0	45	912	#line 45 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	45	912	#line 45 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	46	912		not __D0main, __zfmain
-0	46	915	#line 46 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	47	915		tst 5, __zfmain, __D0main
-0	46	918	#line 46 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	47	918		brtst 4, __NXC_Label_586, __zfmain
-0	46	921	#line 46 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	46	921	#line 46 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	47	921		jmp __NXC_Label_585
-0	46	923	#line 46 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	46	923	#line 46 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	47	923		set __D0main, 75
-0	47	926	#line 47 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	48	926	#pragma macro 7
-0	48	926		setout __constVal2, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	4112	949	#line 4112 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	47	949	#line 47 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	48	949	#line 48 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	49	949	#pragma macro 7
-0	49	949		setout __constVal1, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	4115	972	#line 4115 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	48	972	#line 48 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	48	972	#line 48 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	49	972		set __Wait_7qG2_ms_7qG2_000_inline_main, 250
-0	48	975	#line 48 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	7921	975	#line 7921 "NXCDefs.h"
-0	7922	975		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
-0	7921	978	#line 7921 "NXCDefs.h"
-0	49	978	#line 49 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	49	978	#line 49 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	50	978		set __D0main, 75
-0	50	981	#line 50 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	51	981	#pragma macro 7
-0	51	981		setout __OUT_BC, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	4132	1004	#line 4132 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	50	1004	#line 50 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	50	1004	#line 50 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	51	1004		getin __signed_stack_001main, __constVal2, 4
-0	50	1008	#line 50 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	50	1008	#line 50 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	51	1008		set __D0main, 50
-0	50	1011	#line 50 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	51	1011		cmp 0, __zfmain, __signed_stack_001main, __D0main
-0	50	1015	#line 50 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	50	1015	#line 50 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	51	1015		not __D0main, __zfmain
-0	51	1018	#line 51 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	52	1018		tst 5, __zfmain, __D0main
-0	51	1021	#line 51 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	52	1021		brtst 4, __NXC_Label_598, __zfmain
-0	51	1024	#line 51 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	51	1024	#line 51 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	52	1024		jmp __NXC_Label_597
-0	51	1026	#line 51 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	51	1026	#line 51 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	52	1026		set __D0main, 75
-0	52	1029	#line 52 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	53	1029	#pragma macro 7
-0	53	1029		setout __constVal1, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	4165	1052	#line 4165 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	52	1052	#line 52 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	53	1052	#line 53 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	54	1052	#pragma macro 7
-0	54	1052		setout __constVal2, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	4168	1075	#line 4168 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	53	1075	#line 53 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	53	1075	#line 53 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	54	1075		set __Wait_7qG2_ms_7qG2_000_inline_main, 200
-0	53	1078	#line 53 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	7921	1078	#line 7921 "NXCDefs.h"
-0	7922	1078		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
-0	7921	1081	#line 7921 "NXCDefs.h"
-0	54	1081	#line 54 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	54	1081	#line 54 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	55	1081		set __D0main, 75
-0	55	1084	#line 55 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	56	1084	#pragma macro 7
-0	56	1084		setout __OUT_BC, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	4185	1107	#line 4185 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	55	1107	#line 55 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	55	1107	#line 55 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	56	1107		getin __signed_stack_001main, __constVal2, 4
-0	55	1111	#line 55 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	55	1111	#line 55 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	56	1111		set __D0main, 50
-0	55	1114	#line 55 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	56	1114		cmp 0, __zfmain, __signed_stack_001main, __D0main
-0	55	1118	#line 55 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	55	1118	#line 55 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	56	1118		not __D0main, __zfmain
-0	56	1121	#line 56 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	57	1121		tst 5, __zfmain, __D0main
-0	56	1124	#line 56 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	57	1124		brtst 4, __NXC_Label_610, __zfmain
-0	56	1127	#line 56 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	56	1127	#line 56 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	57	1127		jmp __NXC_Label_609
-0	56	1129	#line 56 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	56	1129	#line 56 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	57	1129		set __D0main, 75
-0	57	1132	#line 57 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	58	1132	#pragma macro 7
-0	58	1132		setout __constVal1, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	4218	1155	#line 4218 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	57	1155	#line 57 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	58	1155	#line 58 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	59	1155	#pragma macro 7
-0	59	1155		setout __constVal2, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	4221	1178	#line 4221 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	58	1178	#line 58 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	58	1178	#line 58 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	59	1178		set __Wait_7qG2_ms_7qG2_000_inline_main, 250
-0	58	1181	#line 58 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	7921	1181	#line 7921 "NXCDefs.h"
-0	7922	1181		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
-0	7921	1184	#line 7921 "NXCDefs.h"
-0	59	1184	#line 59 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	59	1184	#line 59 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	60	1184		set __D0main, 75
-0	60	1187	#line 60 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	61	1187	#pragma macro 7
-0	61	1187		setout __OUT_BC, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	4238	1210	#line 4238 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	60	1210	#line 60 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	60	1210	#line 60 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	61	1210		getin __signed_stack_001main, __constVal2, 4
-0	60	1214	#line 60 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	60	1214	#line 60 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	61	1214		set __D0main, 50
-0	60	1217	#line 60 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	61	1217		cmp 0, __zfmain, __signed_stack_001main, __D0main
-0	60	1221	#line 60 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	60	1221	#line 60 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	61	1221		not __D0main, __zfmain
-0	61	1224	#line 61 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	62	1224		tst 5, __zfmain, __D0main
-0	61	1227	#line 61 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	62	1227		brtst 4, __NXC_Label_622, __zfmain
-0	61	1230	#line 61 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	61	1230	#line 61 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	62	1230		jmp __NXC_Label_621
-0	61	1232	#line 61 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	61	1232	#line 61 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	62	1232		set __D0main, 75
-0	62	1235	#line 62 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	63	1235	#pragma macro 7
-0	63	1235		setout __constVal2, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	4271	1258	#line 4271 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	62	1258	#line 62 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	63	1258	#line 63 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	64	1258	#pragma macro 7
-0	64	1258		setout __constVal1, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	4274	1281	#line 4274 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	63	1281	#line 63 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	63	1281	#line 63 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	64	1281		set __Wait_7qG2_ms_7qG2_000_inline_main, 250
-0	63	1284	#line 63 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	7921	1284	#line 7921 "NXCDefs.h"
-0	7922	1284		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
-0	7921	1287	#line 7921 "NXCDefs.h"
-0	64	1287	#line 64 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	64	1287	#line 64 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	65	1287		set __D0main, 75
-0	65	1290	#line 65 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	66	1290	#pragma macro 7
-0	66	1290		setout __OUT_BC, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	4291	1313	#line 4291 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	65	1313	#line 65 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	65	1313	#line 65 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	66	1313		getin __signed_stack_001main, __constVal2, 4
-0	65	1317	#line 65 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	65	1317	#line 65 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	66	1317		set __D0main, 50
-0	65	1320	#line 65 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	66	1320		cmp 0, __zfmain, __signed_stack_001main, __D0main
-0	65	1324	#line 65 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	65	1324	#line 65 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	66	1324		not __D0main, __zfmain
-0	66	1327	#line 66 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	67	1327		tst 5, __zfmain, __D0main
-0	66	1330	#line 66 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	67	1330		brtst 4, __NXC_Label_634, __zfmain
-0	66	1333	#line 66 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	66	1333	#line 66 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	67	1333		jmp __NXC_Label_633
-0	66	1335	#line 66 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	66	1335	#line 66 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	67	1335		set __D0main, 75
-0	67	1338	#line 67 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	68	1338	#pragma macro 7
-0	68	1338		setout __constVal2, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	4324	1361	#line 4324 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	67	1361	#line 67 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	68	1361	#line 68 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	69	1361	#pragma macro 7
-0	69	1361		setout __constVal1, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	4327	1384	#line 4327 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	68	1384	#line 68 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	68	1384	#line 68 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	69	1384		set __Wait_7qG2_ms_7qG2_000_inline_main, 350
-0	68	1387	#line 68 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	7921	1387	#line 7921 "NXCDefs.h"
-0	7922	1387		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
-0	7921	1390	#line 7921 "NXCDefs.h"
-0	70	1390	#line 70 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	71	1390	#line 71 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	72	1390	#pragma macro 7
-0	72	1390		setout __OUT_BC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	4340	1413	#line 4340 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	71	1413	#line 71 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
-0	72	1413		exit -1, -1
+0	16	302	#line 16 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	16	302	#line 16 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	17	302		set __D0main, 75
+0	17	305	#line 17 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	18	305	#pragma macro 7
+0	18	305		setout __OUT_BC, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6093	328	#line 6093 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	17	328	#line 17 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	17	328	#line 17 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	18	328		getin __signed_stack_001main, __constVal2, 4
+0	17	332	#line 17 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	17	332	#line 17 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	18	332		set __D0main, 50
+0	17	335	#line 17 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	18	335		cmp 0, __zfmain, __signed_stack_001main, __D0main
+0	17	339	#line 17 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	17	339	#line 17 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	18	339		not __D0main, __zfmain
+0	18	342	#line 18 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	19	342		tst 5, __zfmain, __D0main
+0	18	345	#line 18 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	19	345		brtst 4, __NXC_Label_637, __zfmain
+0	18	348	#line 18 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	18	348	#line 18 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	19	348		jmp __NXC_Label_636
+0	18	350	#line 18 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	18	350	#line 18 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	19	350		set __D0main, 75
+0	19	353	#line 19 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	20	353	#pragma macro 7
+0	20	353		setout __constVal1, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6126	376	#line 6126 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	19	376	#line 19 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	20	376	#line 20 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	21	376	#pragma macro 7
+0	21	376		setout __constVal2, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6129	399	#line 6129 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	20	399	#line 20 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	20	399	#line 20 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	21	399		set __Wait_7qG2_ms_7qG2_000_inline_main, 180
+0	20	402	#line 20 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	7921	402	#line 7921 "NXCDefs.h"
+0	7922	402		wait 180
+0	7921	404	#line 7921 "NXCDefs.h"
+0	21	404	#line 21 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	21	404	#line 21 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	22	404		set __D0main, 75
+0	22	407	#line 22 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	23	407	#pragma macro 7
+0	23	407		setout __OUT_BC, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6146	430	#line 6146 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	22	430	#line 22 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	22	430	#line 22 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	23	430		getin __signed_stack_001main, __constVal2, 4
+0	22	434	#line 22 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	22	434	#line 22 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	23	434		set __D0main, 50
+0	22	437	#line 22 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	23	437		cmp 0, __zfmain, __signed_stack_001main, __D0main
+0	22	441	#line 22 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	22	441	#line 22 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	23	441		not __D0main, __zfmain
+0	23	444	#line 23 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	24	444		tst 5, __zfmain, __D0main
+0	23	447	#line 23 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	24	447		brtst 4, __NXC_Label_649, __zfmain
+0	23	450	#line 23 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	23	450	#line 23 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	24	450		jmp __NXC_Label_648
+0	23	452	#line 23 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	23	452	#line 23 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	24	452		set __D0main, 75
+0	24	455	#line 24 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	25	455	#pragma macro 7
+0	25	455		setout __constVal1, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6179	478	#line 6179 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	24	478	#line 24 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	25	478	#line 25 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	26	478	#pragma macro 7
+0	26	478		setout __constVal2, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6182	501	#line 6182 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	25	501	#line 25 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	25	501	#line 25 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	26	501		set __Wait_7qG2_ms_7qG2_000_inline_main, 250
+0	25	504	#line 25 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	7921	504	#line 7921 "NXCDefs.h"
+0	7922	504		wait 250
+0	7921	506	#line 7921 "NXCDefs.h"
+0	26	506	#line 26 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	26	506	#line 26 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	27	506		set __D0main, 75
+0	27	509	#line 27 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	28	509	#pragma macro 7
+0	28	509		setout __OUT_BC, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6199	532	#line 6199 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	27	532	#line 27 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	27	532	#line 27 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	28	532		getin __signed_stack_001main, __constVal2, 4
+0	27	536	#line 27 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	27	536	#line 27 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	28	536		set __D0main, 50
+0	27	539	#line 27 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	28	539		cmp 0, __zfmain, __signed_stack_001main, __D0main
+0	27	543	#line 27 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	27	543	#line 27 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	28	543		not __D0main, __zfmain
+0	28	546	#line 28 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	29	546		tst 5, __zfmain, __D0main
+0	28	549	#line 28 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	29	549		brtst 4, __NXC_Label_661, __zfmain
+0	28	552	#line 28 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	28	552	#line 28 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	29	552		jmp __NXC_Label_660
+0	28	554	#line 28 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	28	554	#line 28 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	29	554		set __D0main, 75
+0	29	557	#line 29 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	30	557	#pragma macro 7
+0	30	557		setout __constVal2, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6232	580	#line 6232 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	29	580	#line 29 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	30	580	#line 30 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	31	580	#pragma macro 7
+0	31	580		setout __constVal1, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6235	603	#line 6235 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	30	603	#line 30 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	30	603	#line 30 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	31	603		set __Wait_7qG2_ms_7qG2_000_inline_main, 200
+0	30	606	#line 30 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	7921	606	#line 7921 "NXCDefs.h"
+0	7922	606		wait 200
+0	7921	608	#line 7921 "NXCDefs.h"
+0	31	608	#line 31 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	31	608	#line 31 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	32	608		set __D0main, 75
+0	32	611	#line 32 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	33	611	#pragma macro 7
+0	33	611		setout __OUT_BC, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6252	634	#line 6252 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	32	634	#line 32 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	32	634	#line 32 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	33	634		getin __signed_stack_001main, __constVal2, 4
+0	32	638	#line 32 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	32	638	#line 32 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	33	638		set __D0main, 50
+0	32	641	#line 32 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	33	641		cmp 0, __zfmain, __signed_stack_001main, __D0main
+0	32	645	#line 32 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	32	645	#line 32 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	33	645		not __D0main, __zfmain
+0	33	648	#line 33 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	34	648		tst 5, __zfmain, __D0main
+0	33	651	#line 33 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	34	651		brtst 4, __NXC_Label_673, __zfmain
+0	33	654	#line 33 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	33	654	#line 33 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	34	654		jmp __NXC_Label_672
+0	33	656	#line 33 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	33	656	#line 33 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	34	656		set __D0main, 75
+0	34	659	#line 34 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	35	659	#pragma macro 7
+0	35	659		setout __constVal2, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6285	682	#line 6285 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	34	682	#line 34 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	35	682	#line 35 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	36	682	#pragma macro 7
+0	36	682		setout __constVal1, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6288	705	#line 6288 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	35	705	#line 35 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	35	705	#line 35 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	36	705		set __Wait_7qG2_ms_7qG2_000_inline_main, 350
+0	35	708	#line 35 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	7921	708	#line 7921 "NXCDefs.h"
+0	7922	708		wait 350
+0	7921	710	#line 7921 "NXCDefs.h"
+0	36	710	#line 36 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	36	710	#line 36 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	37	710		set __D0main, 75
+0	37	713	#line 37 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	38	713	#pragma macro 7
+0	38	713		setout __constVal2, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6305	736	#line 6305 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	37	736	#line 37 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	37	736	#line 37 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	38	736		set __Wait_7qG2_ms_7qG2_000_inline_main, 500
+0	37	739	#line 37 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	7921	739	#line 7921 "NXCDefs.h"
+0	7922	739		wait 500
+0	7921	741	#line 7921 "NXCDefs.h"
+0	38	741	#line 38 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	39	741	#line 39 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	40	741	#pragma macro 7
+0	40	741		setout __OUT_BC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6318	764	#line 6318 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	39	764	#line 39 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	39	764	#line 39 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	40	764		set __D0main, 75
+0	40	767	#line 40 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	41	767	#pragma macro 7
+0	41	767		setout __OUT_BC, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6325	790	#line 6325 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	40	790	#line 40 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	40	790	#line 40 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	41	790		getin __signed_stack_001main, __constVal2, 4
+0	40	794	#line 40 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	40	794	#line 40 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	41	794		set __D0main, 50
+0	40	797	#line 40 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	41	797		cmp 0, __zfmain, __signed_stack_001main, __D0main
+0	40	801	#line 40 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	40	801	#line 40 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	41	801		not __D0main, __zfmain
+0	41	804	#line 41 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	42	804		tst 5, __zfmain, __D0main
+0	41	807	#line 41 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	42	807		brtst 4, __NXC_Label_689, __zfmain
+0	41	810	#line 41 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	41	810	#line 41 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	42	810		jmp __NXC_Label_688
+0	41	812	#line 41 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	41	812	#line 41 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	42	812		set __D0main, 75
+0	42	815	#line 42 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	43	815	#pragma macro 7
+0	43	815		setout __constVal2, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6358	838	#line 6358 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	42	838	#line 42 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	43	838	#line 43 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	44	838	#pragma macro 7
+0	44	838		setout __constVal1, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6361	861	#line 6361 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	43	861	#line 43 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	43	861	#line 43 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	44	861		set __Wait_7qG2_ms_7qG2_000_inline_main, 250
+0	43	864	#line 43 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	7921	864	#line 7921 "NXCDefs.h"
+0	7922	864		wait 250
+0	7921	866	#line 7921 "NXCDefs.h"
+0	44	866	#line 44 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	44	866	#line 44 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	45	866		set __D0main, 75
+0	45	869	#line 45 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	46	869	#pragma macro 7
+0	46	869		setout __OUT_BC, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6378	892	#line 6378 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	45	892	#line 45 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	45	892	#line 45 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	46	892		getin __signed_stack_001main, __constVal2, 4
+0	45	896	#line 45 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	45	896	#line 45 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	46	896		set __D0main, 50
+0	45	899	#line 45 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	46	899		cmp 0, __zfmain, __signed_stack_001main, __D0main
+0	45	903	#line 45 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	45	903	#line 45 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	46	903		not __D0main, __zfmain
+0	46	906	#line 46 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	47	906		tst 5, __zfmain, __D0main
+0	46	909	#line 46 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	47	909		brtst 4, __NXC_Label_701, __zfmain
+0	46	912	#line 46 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	46	912	#line 46 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	47	912		jmp __NXC_Label_700
+0	46	914	#line 46 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	46	914	#line 46 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	47	914		set __D0main, 75
+0	47	917	#line 47 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	48	917	#pragma macro 7
+0	48	917		setout __constVal2, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6411	940	#line 6411 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	47	940	#line 47 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	48	940	#line 48 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	49	940	#pragma macro 7
+0	49	940		setout __constVal1, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6414	963	#line 6414 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	48	963	#line 48 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	48	963	#line 48 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	49	963		set __Wait_7qG2_ms_7qG2_000_inline_main, 250
+0	48	966	#line 48 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	7921	966	#line 7921 "NXCDefs.h"
+0	7922	966		wait 250
+0	7921	968	#line 7921 "NXCDefs.h"
+0	49	968	#line 49 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	49	968	#line 49 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	50	968		set __D0main, 75
+0	50	971	#line 50 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	51	971	#pragma macro 7
+0	51	971		setout __OUT_BC, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6431	994	#line 6431 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	50	994	#line 50 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	50	994	#line 50 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	51	994		getin __signed_stack_001main, __constVal2, 4
+0	50	998	#line 50 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	50	998	#line 50 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	51	998		set __D0main, 50
+0	50	1001	#line 50 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	51	1001		cmp 0, __zfmain, __signed_stack_001main, __D0main
+0	50	1005	#line 50 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	50	1005	#line 50 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	51	1005		not __D0main, __zfmain
+0	51	1008	#line 51 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	52	1008		tst 5, __zfmain, __D0main
+0	51	1011	#line 51 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	52	1011		brtst 4, __NXC_Label_713, __zfmain
+0	51	1014	#line 51 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	51	1014	#line 51 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	52	1014		jmp __NXC_Label_712
+0	51	1016	#line 51 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	51	1016	#line 51 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	52	1016		set __D0main, 75
+0	52	1019	#line 52 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	53	1019	#pragma macro 7
+0	53	1019		setout __constVal1, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6464	1042	#line 6464 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	52	1042	#line 52 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	53	1042	#line 53 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	54	1042	#pragma macro 7
+0	54	1042		setout __constVal2, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6467	1065	#line 6467 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	53	1065	#line 53 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	53	1065	#line 53 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	54	1065		set __Wait_7qG2_ms_7qG2_000_inline_main, 200
+0	53	1068	#line 53 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	7921	1068	#line 7921 "NXCDefs.h"
+0	7922	1068		wait 200
+0	7921	1070	#line 7921 "NXCDefs.h"
+0	54	1070	#line 54 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	54	1070	#line 54 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	55	1070		set __D0main, 75
+0	55	1073	#line 55 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	56	1073	#pragma macro 7
+0	56	1073		setout __OUT_BC, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6484	1096	#line 6484 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	55	1096	#line 55 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	55	1096	#line 55 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	56	1096		getin __signed_stack_001main, __constVal2, 4
+0	55	1100	#line 55 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	55	1100	#line 55 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	56	1100		set __D0main, 50
+0	55	1103	#line 55 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	56	1103		cmp 0, __zfmain, __signed_stack_001main, __D0main
+0	55	1107	#line 55 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	55	1107	#line 55 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	56	1107		not __D0main, __zfmain
+0	56	1110	#line 56 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	57	1110		tst 5, __zfmain, __D0main
+0	56	1113	#line 56 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	57	1113		brtst 4, __NXC_Label_725, __zfmain
+0	56	1116	#line 56 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	56	1116	#line 56 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	57	1116		jmp __NXC_Label_724
+0	56	1118	#line 56 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	56	1118	#line 56 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	57	1118		set __D0main, 75
+0	57	1121	#line 57 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	58	1121	#pragma macro 7
+0	58	1121		setout __constVal1, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6517	1144	#line 6517 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	57	1144	#line 57 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	58	1144	#line 58 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	59	1144	#pragma macro 7
+0	59	1144		setout __constVal2, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6520	1167	#line 6520 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	58	1167	#line 58 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	58	1167	#line 58 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	59	1167		set __Wait_7qG2_ms_7qG2_000_inline_main, 250
+0	58	1170	#line 58 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	7921	1170	#line 7921 "NXCDefs.h"
+0	7922	1170		wait 250
+0	7921	1172	#line 7921 "NXCDefs.h"
+0	59	1172	#line 59 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	59	1172	#line 59 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	60	1172		set __D0main, 75
+0	60	1175	#line 60 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	61	1175	#pragma macro 7
+0	61	1175		setout __OUT_BC, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6537	1198	#line 6537 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	60	1198	#line 60 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	60	1198	#line 60 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	61	1198		getin __signed_stack_001main, __constVal2, 4
+0	60	1202	#line 60 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	60	1202	#line 60 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	61	1202		set __D0main, 50
+0	60	1205	#line 60 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	61	1205		cmp 0, __zfmain, __signed_stack_001main, __D0main
+0	60	1209	#line 60 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	60	1209	#line 60 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	61	1209		not __D0main, __zfmain
+0	61	1212	#line 61 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	62	1212		tst 5, __zfmain, __D0main
+0	61	1215	#line 61 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	62	1215		brtst 4, __NXC_Label_737, __zfmain
+0	61	1218	#line 61 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	61	1218	#line 61 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	62	1218		jmp __NXC_Label_736
+0	61	1220	#line 61 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	61	1220	#line 61 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	62	1220		set __D0main, 75
+0	62	1223	#line 62 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	63	1223	#pragma macro 7
+0	63	1223		setout __constVal2, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6570	1246	#line 6570 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	62	1246	#line 62 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	63	1246	#line 63 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	64	1246	#pragma macro 7
+0	64	1246		setout __constVal1, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6573	1269	#line 6573 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	63	1269	#line 63 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	63	1269	#line 63 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	64	1269		set __Wait_7qG2_ms_7qG2_000_inline_main, 250
+0	63	1272	#line 63 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	7921	1272	#line 7921 "NXCDefs.h"
+0	7922	1272		wait 250
+0	7921	1274	#line 7921 "NXCDefs.h"
+0	64	1274	#line 64 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	64	1274	#line 64 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	65	1274		set __D0main, 75
+0	65	1277	#line 65 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	66	1277	#pragma macro 7
+0	66	1277		setout __OUT_BC, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6590	1300	#line 6590 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	65	1300	#line 65 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	65	1300	#line 65 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	66	1300		getin __signed_stack_001main, __constVal2, 4
+0	65	1304	#line 65 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	65	1304	#line 65 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	66	1304		set __D0main, 50
+0	65	1307	#line 65 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	66	1307		cmp 0, __zfmain, __signed_stack_001main, __D0main
+0	65	1311	#line 65 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	65	1311	#line 65 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	66	1311		not __D0main, __zfmain
+0	66	1314	#line 66 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	67	1314		tst 5, __zfmain, __D0main
+0	66	1317	#line 66 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	67	1317		brtst 4, __NXC_Label_749, __zfmain
+0	66	1320	#line 66 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	66	1320	#line 66 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	67	1320		jmp __NXC_Label_748
+0	66	1322	#line 66 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	66	1322	#line 66 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	67	1322		set __D0main, 75
+0	67	1325	#line 67 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	68	1325	#pragma macro 7
+0	68	1325		setout __constVal2, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6623	1348	#line 6623 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	67	1348	#line 67 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	68	1348	#line 68 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	69	1348	#pragma macro 7
+0	69	1348		setout __constVal1, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6626	1371	#line 6626 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	68	1371	#line 68 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	68	1371	#line 68 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	69	1371		set __Wait_7qG2_ms_7qG2_000_inline_main, 350
+0	68	1374	#line 68 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	7921	1374	#line 7921 "NXCDefs.h"
+0	7922	1374		wait 350
+0	7921	1376	#line 7921 "NXCDefs.h"
+0	70	1376	#line 70 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	71	1376	#line 71 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	72	1376	#pragma macro 7
+0	72	1376		setout __OUT_BC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6639	1399	#line 6639 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	71	1399	#line 71 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
+0	72	1399		exit -1, -1
 1	4885	0		setin __constVal1, __ResetSensorPort, 5
 1	4887	4		getin __ResetSensorTmp, __ResetSensorPort, 5
 1	4888	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
 1	4889	11		subret ____ResetSensorSubroutine_return
-2	74	0	#line 74 "C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc"
+2	74	0	#line 74 "C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc"
 2	75	0		subret ____initialize_global_data_return
 #CLUMPS
 Clump	Name	Offset	File
-0	main	0	C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc
-1	__ResetSensorSubroutine	1416	NXTDefs.h
-2	__initialize_global_data	1429	C:\Users\potlewski\Documents\GitHub\Szkolne\PSiO\Robotyka\SensorSwiatla2.nxc
+0	main	0	C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc
+1	__ResetSensorSubroutine	1402	NXTDefs.h
+2	__initialize_global_data	1415	C:\Users\POTLEW~1\AppData\Local\Temp\temp.nxc
