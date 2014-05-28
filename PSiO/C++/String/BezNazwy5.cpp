@@ -17,5 +17,4 @@ int main()
            li++;
     cout<<"W slowie '"<<sl<<"' jest "<<li<<" literek "<<sz;
     cout<<'\n';
-    system("pause");
 }
