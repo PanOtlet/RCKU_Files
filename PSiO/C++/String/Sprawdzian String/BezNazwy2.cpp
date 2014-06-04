@@ -4,16 +4,16 @@ using namespace std;
 
 int main()
 {
-    string sl,sp;
-    cout<<"Podaj zdanie";
+    string sl;
+    cout<<"Podaj zdanie: ";
     cin>>sl;
-    cout<<"Nacisnij przycisk SPACJI,a nastepnie ENTER";
-    cin>>sp;
+    cout<<'\n';
     for (int i=0; i<=sl.length(); i++)
-        if (sl[i]==sp[0])
+        if (sl[i]==' ')
            cout<<'\n';
         else
-            cout<<sl[i];    
+            cout<<sl[i];
+    cout<<'\n';    
     system("pause");
     return 0;
 }
