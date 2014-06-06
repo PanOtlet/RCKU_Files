@@ -1,0 +1,9 @@
+IDRodzajuSprawdzianu;RodzajSprawdzianu;Waga
+1;'odp. ustna';4
+2;'kartkówka';4
+3;'praca klasowa';6
+4;'praca domowa';1
+5;'aktywnoœæ';2
+6;'projekt';3
+7;'praca pisemna';4
+8;'konkursy';10

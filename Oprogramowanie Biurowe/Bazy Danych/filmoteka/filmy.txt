@@ -1,0 +1,91 @@
+ID_filmu	Tytul	Kraj_produkcji	Gatunek	Cena_w_zl
+AA1993	Lista Schindlera	Polska	wojenny	6
+AA1994	Pulp Fiction	USA	thriller	6
+AA1995	Siedem	USA	thriller	8
+AA1998	Szeregowiec Ryan	USA	wojenny	5
+AA2000	Chlopaki nie placza	Polska	komedia	6
+AA2002	Resident Evil	Wielka Brytania	horror	6
+AA2003	Kill Bill	USA	thriller	6
+AA2005	Charlie i fabryka czekolady	USA	familijny	8
+AA2006	Kod da Vinci	USA	thriller	8
+AA2007	Sierociniec	Hiszpania	horror	6
+AB1994	Forrest Gump	USA	dramat	7
+AB1999	Zielona Mila	USA	dramat	8
+AB2000	Requiem dla snu	USA	dramat	6
+AB2001	Wladca Pierscieni	Nowa Zelandia	fantazy	5
+AB2003	Ostatni samuraj	USA	wojenny	5
+AB2005	Madagaskar	USA	familijny	8
+AB2006	Diabel ubiera sie u Prady	Polska	komedia	7
+AB2007	[Rec]	Hiszpania	horror	6
+AB2009	Kac Vegas	Niemcy	komedia	8
+AC1979	Czas Apokalipsy	USA	wojenny	7
+AC1992	Ojciec chrzestny	USA	dramat	5
+AC1994	Skazani na Shawshank	USA	dramat	6
+AC1997	Adwokat Diabla	Niemcy	thriller	6
+AC2000	Gladiator	Wielka Brytania	dramat	8
+AC2001	Wrog u bram	Wielka Brytania	wojenny	7
+AC2003	Gothica	USA	horror	6
+AC2005	Kevin sam w domu	USA	familijny	5
+AC2007	1408	USA	horror	6
+AC2008	Czysta krew	USA	horror	7
+AC2010	Alicja w Krainie Czarow	USA	familijny	8
+AD2008	Wall-e	USA	familijny	8
+AE2008	The Hurt Locker. W pulapce wojny	USA	wojenny	7
+AF2008	Jumper	Kanada	przygodowy	7
+AH2000	Cast Away - poza swiatem	USA	dramat	5
+AK2010	Niepokonani	USA	dramat	8
+AL2010	Essential Killing	Polska	dramat	8
+AM2010	Nasza niania jest agentem	USA	komedia	7
+AS1999	Podziemny krag	USA	thriller	5
+AS2010	Czarny labedz	USA	thriller	8
+AW2010	Incepcja	USA	sf	8
+AX2000	Straszny film	USA	komedia	7
+AX2003	Bruce Wszechmogacy	USA	komedia	5
+AX2006	300	USA	dramat	6
+AX2007	Katyn	Polska	wojenny	7
+AX2009	Dom zly	Polska	dramat	8
+AY2000	Oszukac przeznaczenie	Kanada	horror	7
+AY2007	Mgla	USA	horror	7
+AZ2009	Ciekawy przypadek Benjamina Buttona	USA	fantazy	8
+BB1991	Milczenie owiec	USA	thriller	5
+BB1997	Zycie jest piekne	Wlochy	wojenny	7
+BB1999	Matrix	USA	sf	7
+BB2001	Shrek	USA	familijny	6
+BB2003	Piraci z Karaibow: Klatwa Czarnej Perly	USA	przygodowy	6
+BB2004	Efekt motyla	USA	thriller	6
+BH2004	Krol Lew III. Hakuna Matata	USA	przygodowy	6
+BB2005	Harry Potter i Czara Ognia	Wielka Brytania	przygodowy	7
+BB2009	Avatar	Wielka Brytania	sf	5
+BC2004	Pila	USA	horror	7
+BC2009	Bekarty wojny	Niemcy	wojenny	8
+BD2005	Opowiesci z Narnii: Lew, czarownica i stara szafa	Wielka Brytania	familijny	8
+BF1990	Edward Nozycoreki	USA	dramat	5
+BF1999	American Pie	USA	komedia	5
+BF2001	Helikopter w ogniu	USA	wojenny	8
+BF2004	Van Helsing	USA	horror	6
+BF2008	Chlopiec w pasiastej pizamie	Wielka Brytania	wojenny	8
+BG1999	Szosty zmysl	USA	thriller	8
+CD1986	Pluton	Wielka Brytania	wojenny	7
+CD2001	Kompania braci	Wielka Brytania	wojenny	7
+CD2002	Dzien swira	Polska	komedia	6
+CD2004	Skarb narodow	USA	przygodowy	7
+CD2007	Ratatuj	USA	familijny	5
+CD2008	Lejdis	Polska	komedia	6
+CD2009	Saga "Zmierzch": Ksiezyc w nowiu	USA	horror	8
+CE2002	Pianista	Polska	wojenny	6
+CF2004	Eurotrip	USA	przygodowy	7
+CG2002	The Ring	Japonia	horror	6
+DC1999	American Beauty	USA	komedia	7
+DD1978	Lowca jeleni	Wielka Brytania	wojenny	7
+DD1983	Seksmisja	Polska	komedia	5
+DD1987	Imperium Slonca	USA	wojenny	7
+DD1999	Dziewiate wrota	Hiszpania	horror	6
+DD2002	Piekny umysl	USA	dramat	6
+DD2003	Underworld	Wielka Brytania	horror	5
+DD2005	Parnassus	Wielka Brytania	przygodowy	7
+DD2007	Testosteron	Polska	komedia	8
+DD2009	Mroczny rycerz	Wielka Brytania	sf	8
+DE1999	Mumia	USA	przygodowy	7
+NK2005	Duma i uprzedzenie	Wielka Brytania	melodramat	7
+NN1994	Leon Zawodowiec	Francja	dramat	7
+NN2006	Asterix i wikingowie	Francja	komedia	6
