@@ -10,7 +10,6 @@ Korzystanie z tego jest darmowe zgodnie z licencją X11 (MIT)
 
 =======
 ##Spis treści
-- OB (Oprogramowanie Biurowe)
 - PSiO (Programowanie Strukturalne i Obiektowe)
 - SOiSK (Systemy Operacyjne i Sieci Komputerowe)
 - Specjalizacja Informatyczna (Zajęcia ze specjalizacji informatycznej, a dokładniej Aplikacje Internetowe)

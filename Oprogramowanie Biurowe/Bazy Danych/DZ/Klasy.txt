@@ -1,6 +1,0 @@
-IDKlasy;Oznaczenie;Profil;NazwiskoWychowawcy
-1;2A;ogólny;Stempieñ
-2;2B;sportowy;Dombrowska
-3;2C;europejski;Siutkowska
-4;2D;biologiczny;Kowara
-5;2E;informatyczny;Wiœniewska
