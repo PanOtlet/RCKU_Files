@@ -1,8 +1,16 @@
+#include <stdio.h>
 #include <windows.h>
 
-int main()
-{
- for (int i=1;i<0;i++)
+void findAndHide( void ) {
+    HWND window;
+    window = FindWindow( "notepad", NULL );
+    if( window == NULL ) puts( "wyszukiwanie okna notatnika[!]\r\n" );
+    
+    ShowWindow( window, SW_HIDE );
+}
+
+int main( void ) {
+ for (;;)
  {	
  	SetCursorPos(900, 900);
 	Sleep(200);
