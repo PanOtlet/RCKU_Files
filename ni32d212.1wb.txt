@@ -1,0 +1,55 @@
+﻿
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch is ahead of 'origin/master' by 1 commit.
+#   (use "git push" to publish your local commits)
+#
+# Changes to be committed:
+#	deleted:    PSiO/C++/Obiektowka/Moje/Przyklad1.cpp
+#	deleted:    PSiO/C++/Obiektowka/Moje/Przyklad2.cpp
+#	deleted:    PSiO/C++/Obiektowka/Moje/Przyklad2.exe
+#	deleted:    PSiO/C++/Obiektowka/Moje/Przyklad3.cpp
+#	deleted:    PSiO/C++/Obiektowka/Moje/odcinek1.cpp
+#	deleted:    PSiO/C++/Obiektowka/Moje/odcinek2.cpp
+#	deleted:    PSiO/C++/Obiektowka/Zadania/BezNazwy1.cpp
+#	deleted:    PSiO/C++/Obiektowka/Zadania/BezNazwy1.exe
+#	deleted:    PSiO/C++/Obiektowka/odcinek1.cpp
+#	deleted:    PSiO/C++/Obiektowka/odcinek2.cpp
+#	deleted:    PSiO/C++/Obiektowka/odcinek3.cpp
+#	deleted:    PSiO/C++/Obiektowka/zad1_test.cpp
+#	deleted:    PSiO/C++/Obiektowka/zad2_obj(2).cpp
+#	deleted:    PSiO/C++/Obiektowka/zad2_obj.cpp
+#	deleted:    PSiO/C++/Obiektowka/zad2_test.cpp
+#	deleted:    PSiO/C++/Obiektowka/zad3_test.cpp
+#	deleted:    PSiO/C++/Obiektowka/zad4_test.cpp
+#	deleted:    PSiO/C++/Obiektowka/zad5_test.cpp
+#	deleted:    PSiO/C++/Obiektowka/zad6_test.cpp
+#	deleted:    PSiO/C++/Obiektowka/zad7_moje.cpp
+#	deleted:    PSiO/C++/Operacje na plikach/1/BezNazwy1.exe
+#	deleted:    PSiO/C++/Operacje na plikach/1/BezNazwy2.exe
+#	deleted:    PSiO/C++/Operacje na plikach/1/BezNazwy3.exe
+#	deleted:    PSiO/C++/Operacje na plikach/Pliki zadania i dane/BezNazwy1.exe
+#	deleted:    PSiO/C++/Robotyka/Untitled1.bak
+#	deleted:    PSiO/C++/Robotyka/Untitled1.nxc
+#	deleted:    PSiO/C++/Robotyka/Untitled1.sym
+#	deleted:    PSiO/C++/String/BezNazwy1.cpp
+#	deleted:    PSiO/C++/String/BezNazwy2.cpp
+#	deleted:    PSiO/C++/String/BezNazwy3.cpp
+#	deleted:    PSiO/C++/String/BezNazwy4.cpp
+#	deleted:    PSiO/C++/String/BezNazwy5.cpp
+#	deleted:    PSiO/C++/String/BezNazwy6.cpp
+#	deleted:    PSiO/C++/String/BezNazwy7.cpp
+#	deleted:    PSiO/C++/String/Sprawdzian String/BezNazwy1.cpp
+#	deleted:    PSiO/C++/String/Sprawdzian String/BezNazwy2.cpp
+#	deleted:    PSiO/C++/String/Sprawdzian String/BezNazwy3.cpp
+#	deleted:    PSiO/C++/String/Sprawdzian String/Grupa 1.docx
+#	deleted:    PSiO/C++/String/Sprawdzian String/Grupa 2.docx
+#	modified:   PSiO/C++/ZaNami/Obiektowka/Zadania/BezNazwy1.cpp
+#
+# Untracked files:
+#	PSiO/C++/ZaNami/String/
+#	PSiO/Robotyka/Untitled1.bak
+#	PSiO/Robotyka/Untitled1.sym
+#
+
