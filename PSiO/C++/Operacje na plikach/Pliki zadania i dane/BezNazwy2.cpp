@@ -7,26 +7,24 @@ using namespace std;
 int main()
 {
  int liczba,i=0,max=0,min=9999;
- string str;
- fstream plik("lustro.txt");
- plik.open("lustro.txt");
- if( plik.good() == true )
- {
-  plik.open("lustro.txt");
+ string str1,str2;
+ fstream plik,wyniki;
+ plik.open("lustro.txt",ios::in);
+ wyniki.open("wyniki_2.txt",ios::out);
   if( plik.good() == true )
   {
    while(!plik.eof())
    {
-    plik >> str;
-   	if((str[0]==str[str.size()])&&(str[1]==str[str.size()]-1)&&(str[2]==str[str.size()-2]))
+    plik >> str1;
+    plik >> str2;
+    if (str1[str1.length()]==str2[str2.length()])
+       for(int i=0;i<str1.length();i++)
+   	   if(str1[i]==str2[str2.size()-i-1])
    	{
- 	 cout<<str<<"  ";
+ 	 cout<<str1<<","<<str2<<endl;
     }
    }    
    plik.close();
-   }
-   else
-   	   cout<<"Don't work, go out"<<'\n';
  }
  return 0;
 }
