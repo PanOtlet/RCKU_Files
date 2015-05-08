@@ -1,0 +1,31 @@
+Id_naucz;Imiê;Nazwisko;Tytu³;Stopieñ_awansu
+1;Aleksander;Wielki;mgr in¿.;Nauczyciel Dyplomowany
+2;Filip;Macedoñski;mgr;Nauczyciel Mianowany
+3;Kleopatra;Ptolemeusz;mgr;Nauczyciel Mianowany
+4;Jadwiga;Andegaweñska;dr;Nauczyciel Dyplomowany
+5;Wiktoria;Angielska;mgr;Nauczyciel Mianowany
+6;Karol;Szwedzki;mgr in¿.;Nauczyciel Mianowany
+7;Ferdynand;Aragoñski;mgr;Nauczyciel Dyplomowany
+8;Filip;Hiszpañski;dr;Nauczyciel Dyplomowany
+9;Franciszek;Francuski;mgr;Nauczyciel Dyplomowany
+10;Henryk;Hugenot;dr;Nauczyciel Mianowany
+11;Katarzyna;Medycejska;mgr;Nauczyciel Dyplomowany
+12;Henryk;Walezy;mgr;Nauczyciel Mianowany
+13;Ludwik;Œwiêty;mgr;Nauczyciel Mianowany
+14;W³adys³aw;Litewski;mgr;Nauczyciel Dyplomowany
+15;Karol;Wielki;mgr;Nauczyciel Dyplomowany
+16;Harald;Norweski;dr;Nauczyciel Mianowany
+17;Gustaw;Szwedzki;mgr;Nauczyciel Dyplomowany
+18;Jan;Zwyciêski;dr;Nauczyciel Dyplomowany
+19;Anna;Italska;mgr;Nauczyciel Mianowany
+20;Robert;Karoling;mgr in¿.;Nauczyciel Mianowany
+21;Cyrus;Perski;mgr;Nauczyciel Dyplomowany
+22;Izabella;Kastylijska;mgr;Nauczyciel Dyplomowany
+23;Ma³gorzata;Holenderska;dr;Nauczyciel Dyplomowany
+24;Artur;Celtycki;mgr;Nauczyciel Mianowany
+25;Boles³aw;Rogatka;mgr;Nauczyciel Mianowany
+26;Jan;Midas;mgr;Nauczyciel Mianowany
+27;Stefan;Wêgierski;mgr;Nauczyciel Dyplomowany
+28;Maria;Stuart;dr;Nauczyciel Dyplomowany
+29;Mieszko;Stary;mgr;Nauczyciel Mianowany
+30;Iwan;GroŸny;dr;Nauczyciel Dyplomowany

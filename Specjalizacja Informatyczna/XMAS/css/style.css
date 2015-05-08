@@ -1,0 +1,76 @@
+/* Getting the new tags to behave */
+article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure, footer, header, hgroup, keygen, meter, nav, output, progress, section, source, video {display:block}
+mark, rp, rt, ruby, summary, time {display:inline}
+.left {float:left}
+.right {float:right}
+.centrer {text-align:center}
+.wrapper {width:100%;overflow:hidden}
+body {background:url(../images/bg_top.gif) top repeat-x #f9fffd;border:0;font:12px Arial, Helvetica, sans-serif;color:#676767;line-height:18px}
+.css3{border-radius:8px;-moz-border-radius:8px;-webkit-border-radius:8px;box-shadow:0 0 4px rgba(0, 0, 0, .4);-moz-box-shadow:0 0 4px rgba(0, 0, 0, .4);-webkit-box-shadow:0 0 4px rgba(0, 0, 0, .4);behavior:url(js/PIE.htc);position:relative}
+.main {margin:0 auto;width:960px}
+a {color:#167bc2;text-decoration:underline;outline:none}
+a:hover {text-decoration:none}
+h1 {padding:0 0 22px 0}
+h2 {margin:0 -17px;background:url(../images/h2_bg.gif) top repeat-x;font-size:16px;color:#f9fffd;line-height:34px;letter-spacing:-1px;text-transform:uppercase;overflow:hidden}
+h2 span {display:block;background:url(../images/h2_left.jpg) top left no-repeat}
+h2 span span {padding:5px 28px 18px 48px;background:url(../images/h2_right.gif) top right no-repeat}
+h3 {margin:0 -24px;background:url(../images/h3_bg.gif) top repeat-x;font-size:18px;color:#167bc2;line-height:34px;letter-spacing:-1px;overflow:hidden}
+h3 span {display:block;background:url(../images/h3_left.jpg) 13px top no-repeat}
+h3 span span {padding:5px 44px 18px 65px;background:url(../images/h3_right.gif) top right no-repeat}
+h2 strong, h3 strong {float:right}
+p {padding-bottom:18px}
+/* header */
+header {background:url(../images/bg_head.jpg) top center no-repeat;width:100%;overflow:hidden}
+#search {float:right;padding:25px 40px 0 0;width:280px}
+#search .button {float:right}
+#search .input {float:right;width:179px;height:14px;padding:2px 5px;border:1px solid #d9dfdd;background:#fff;margin-right:10px;margin-top:2px;font:12px Arial, Helvetica, sans-serif;color:#676767}
+#icons {float:right;padding:26px 76px 0 0}
+#icons li {float:left;padding-right:10px}
+#banner {width:497px;float:right;padding:61px 63px 0 0;text-align:center;height:284px}
+#logo {display:block;background:url(../images/logo.jpg) no-repeat;height:95px;text-indent:-5000px}
+.text {font-size:30px;line-height:36px;color:#c0e9f5;letter-spacing:-1px;padding-bottom:16px;display:block}
+.text span {font-size:20px;line-height:24px;color:#f9fffd;display:block}
+#banner .button span {background:url(../images/button2_left.gif) top left no-repeat}
+#banner .button span span {background:url(../images/button2_right.gif) top right no-repeat}
+#menu {margin-top:2px;background:url(../images/menu_bg.gif) top repeat-x}
+#menu_left {background:url(../images/menu_left.gif) top left no-repeat}
+#menu_right {background:url(../images/menu_right.gif) top right no-repeat;width:100%;overflow:hidden}
+#menu li {float:left;padding-right:2px;background:url(../images/menu_line.gif) right no-repeat;padding-bottom:26px}
+#menu .bg_none {background:none;padding-right:0}
+#menu .bg_none a {width:192px}
+#menu li a {display:block;width:190px;font-size:19px;color:#f9fffd;text-align:center;line-height:48px;padding-bottom:6px;text-decoration:none}
+#menu li a:hover, #menu #menu_active a {}
+/* content */
+#content {width:100%;overflow:hidden;padding-top:4px}
+.pad_left1 {padding-left:20px}
+.pad_left2 {padding-left:70px}
+.marg_right1 {margin-right:10px}
+.marg_right2 { margin-right:25px}
+.pad_bot1 {padding-bottom:6px}
+.pad_bot2 {padding-bottom:18px}
+.marg_bot1 {margin-bottom:33px}
+.button { display:inline-block;background:url(../images/button1_bg.gif) top repeat-x;font-size:14px;color:#f9fffd;text-decoration:none;line-height:24px;text-transform:uppercase}
+.button span {display:block;background:url(../images/button1_left.gif) top left no-repeat}
+.button span span {padding:0 10px;background:url(../images/button1_right.gif) top right no-repeat}
+.button:hover {color:#8e1103}
+.box1 {border:1px solid #e0e5e3;background:url(../images/box1_bot.gif) bottom repeat-x #f9fffd;border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;behavior:url(js/PIE.htc);position:relative;padding:5px 25px}
+.list1 li {line-height:20px}
+.list1 li a {padding-left:9px;background:url(../images/marker_1.gif) 0 5px no-repeat}
+.list2 li {line-height:24px}
+.list2 li a {color:#a0a0a0;padding-left:16px;background:url(../images/marker_2.jpg) 0 3px no-repeat}
+.list3 li {line-height:18px}
+.list3 li a {font-weight:bold;background:url(../images/marker_2.jpg) 0 2px no-repeat;padding-left:16px}
+.line1 {background:url(../images/line_ver1.gif) 315px 0 repeat-y}
+.color1 {color:#000}
+.marker {width:12px;background:url(../images/marker_1.gif) right 6px no-repeat;display:inline-block;text-decoration:none}
+#banner1 {margin-top:11px;display:block} 
+.min_height {min-height:508px}
+/* footer */
+footer {color:#676767;text-align:center;padding:35px 0 36px 0}
+footer a {color:#ba1000}
+/* forms */
+#ContactForm {line-height:19px}
+#ContactForm .centrer {float:right;width:560px}
+#ContactForm a {margin:0 5px;width:84px;text-align:center}
+#ContactForm .input {width:320px;height:15px;border:1px solid #e1e6e4;background:#f9fffd;padding:1px 5px;margin-bottom:6px;font:12px Arial, Helvetica, sans-serif;color:#676767;margin-right:236px;float:right}
+#ContactForm textarea {overflow:auto;width:556px;height:319px;border:1px solid #e1e6e4;background:#f9fffd;padding:1px 5px;margin-bottom:15px;font:12px Arial, Helvetica, sans-serif;color:#676767;float:right}

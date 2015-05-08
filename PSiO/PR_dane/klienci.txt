@@ -1,0 +1,96 @@
+Nazwisko;  Imiê;  Miejscowoœæ;  Ulica; Nazwa_towaru; Cena; Data zakupu
+ Janowski;  Micha³; Poznañ; 3-go Maja 31; P³yta elektryczna; 630; 2012-03-21
+ ¯ak;  Karol; Warszawa; Szeroka 2; Okap; 320; 2012-12-15
+ Giziñski;  Konrad; Gdañsk; Szeroka 1; Lodówka; 1200; 2012-09-12
+ Markowski;  Marek; Poznañ; Grodzka 5; Okap; 320; 2012-11-09
+ Górecka;  Daria; Warszawa; W¹ska 2; P³yta indukcyjna; 999; 2012-11-07
+ Czerwiñska;  Joanna; Warszawa; Krêta 14; Czajnik elektryczny; 120; 2012-05-23
+ Mirski;  Micha³; Warszawa; Szeroka 47; Pralka; 1100; 2012-06-22
+ Markowski;  Marek; Poznañ; Grodzka 5; P³yta gazowa; 550; 2012-04-27
+ Nowak;  Roman; Gdañsk; Reja 43; Piekarnik; 690; 2012-10-17
+ Witkowski;  Pawe³; Warszawa; Mickiewicza 46; Odkurzacz; 390; 2012-04-21
+ Góra;  Grzegorz; Warszawa; Roja 1; P³yta gazowa; 550; 2012-01-19
+ Giziñski;  Konrad; Gdañsk; Szeroka 1; Czajnik elektryczny; 120; 2012-09-23
+ Nowak;  Piotr; Gdañsk; Krótka 1; Zmywarka; 1450; 2012-03-15
+ Adamska;  Ewelina; Poznañ; Reja 1; Pralka; 1100; 2012-04-05
+ Nowakowski;  Marcin; Poznañ; Mi³osza 31; Robot kuchenny; 450; 2012-04-09
+ Lisowski;  Tomasz; Warszawa; Mohna 11; P³yta gazowa; 550; 2012-10-02
+ Wilk;  Ewa; Gdañsk; Reja 22; P³yta indukcyjna; 999; 2012-10-12
+ Nowak;  Roman; Gdañsk; Reja 43; Pralka; 1100; 2012-12-28
+ Walec;  Micha³; Warszawa; Mickiewicza 45; Pralka; 1100; 2012-11-25
+ Makowicz;  Micha³; Warszawa; Szeroka 44; P³yta indukcyjna; 999; 2012-09-23
+ Kozio³;  Marek; Poznañ; Krêta 47; P³yta elektryczna; 630; 2012-07-11
+ Wysocka;  Malwina; Wroc³aw; S³owackiego 44; Okap; 320; 2012-08-05
+ Witkowski; Roman; Warszawa; Marszaowska 12; P³yta indukcyjna; 999; 2012-04-24
+ Janowski;  Micha³; Poznañ; 3-go Maja 31; P³yta gazowa; 550; 2012-01-26
+ Norek;  Maria; Warszawa; Szeroka 34; Lodówka; 1200; 2012-06-12
+ Nowakowski;  Marcin; Poznañ; Mi³osza 31; Zmywarka; 1450; 2012-03-19
+ ¯bik;  Janusz; Warszawa; Jêczmienna 2; Odkurzacz; 390; 2012-12-11
+ Nowakowski;  Marcin; Poznañ; Mi³osza 31; Pralka; 1100; 2012-09-06
+ Nowak;  Roman; Gdañsk; Reja 43; Mikrofalówka; 230; 2012-11-01
+ Bia³kowski;  Pawe³; Warszawa; Jêczmienna 2; Czajnik elektryczny; 120; 2012-10-28
+ Bia³kowski;  Pawe³; Warszawa; Jêczmienna 2; Piekarnik; 690; 2012-05-11
+ Witkowski;  Pawe³; Wroc³aw; Mohna 34; Robot kuchenny; 450; 2012-06-08
+ Barañski;  Marcin; Warszawa; Podmurna 8; Odkurzacz; 390; 2012-04-11
+ Janowska;  Anna; Warszawa; Szeroka 7; P³yta elektryczna; 630; 2012-09-29
+ Bia³kowski;  Pawe³; Warszawa; Jêczmienna 2; Okap; 320; 2012-04-01
+ Janowska;  Anna; Warszawa; Szeroka 7; Zmywarka; 1450; 2012-12-28
+ Borkowska;  Maja; Warszawa; Krêta 1; Czajnik elektryczny; 120; 2012-08-30
+ Gos³awska;  Anna; Warszawa; Szeroka 17; Lodówka; 1200; 2012-02-17
+ Kozio³;  Marek; Poznañ; Krêta 47; Robot kuchenny; 450; 2012-03-08
+ Czerwiñska;  Joanna; Warszawa; Krêta 14; P³yta gazowa; 550; 2012-03-10
+ Borkowski; Andrzej; Szczecin; Mickiewicza 1; P³yta gazowa; 550; 2012-08-31
+ Domacz;  Ewa; Warszawa; Nowaka 14; Robot kuchenny; 450; 2012-09-08
+ Korzeniowska;  Ewelina; Warszawa; Kwiatowa 32; Zmywarka; 1450; 2012-11-22
+ Gos³awska;  Anna; Warszawa; Szeroka 17; Odkurzacz; 390; 2012-10-18
+ Mi³ek;  Ilona; Poznañ; Nowa 3; Okap; 320; 2012-08-14
+ Mirowska;  Ewelina; Warszawa; S³owackiego 11; Okap; 320; 2012-05-30
+ Markowski;  Marek; Poznañ; Grodzka 5; Mikrofalówka; 230; 2012-06-12
+ Nowicki;  Marek; Szczecin; Krótka 7; Okap; 320; 2012-03-19
+ Mi³ek;  Ilona; Poznañ; Nowa 3; P³yta gazowa; 550; 2012-12-11
+ Góra;  Grzegorz; Warszawa; Roja 1; Czajnik elektryczny; 120; 2012-09-06
+ Górski;  £ukasz; Warszawa; Reja 2; Pralka; 1100; 2012-11-01
+ Witkowski; Roman; Warszawa; Marszaowska 12; Robot kuchenny; 450; 2012-10-28
+ Kozio³;  Marek; Poznañ; Krêta 47; Zmywarka; 1450; 2012-05-11
+ Góra;  Grzegorz; Warszawa; Roja 1; Odkurzacz; 390; 2012-06-08
+ Mirowska;  Ewelina; Warszawa; S³owackiego 11; Mikrofalówka; 230; 2012-04-11
+ Nowicki;  Marek; Szczecin; Krótka 7; Zmywarka; 1450; 2012-09-29
+ Wilk;  Ewa; Gdañsk; Reja 22; Okap; 320; 2012-04-01
+ Janowska;  Anna; Warszawa; Szeroka 7; Czajnik elektryczny; 120; 2012-12-28
+ Nowakowski;  Marcin; Poznañ; Mi³osza 31; Okap; 320; 2012-04-05
+ Bolkowski;  Piotr; Warszawa; Kiliñskiego 11; Zmywarka; 1450; 2012-04-09
+ Bia³kowski;  Pawe³; Warszawa; Jêczmienna 2; Okap; 320; 2012-10-02
+ Nowicki;  Marek; Szczecin; Krótka 7; P³yta gazowa; 550; 2012-10-12
+ Kozio³;  Marek; Poznañ; Krêta 47; Czajnik elektryczny; 120; 2012-12-28
+ Kwiatkowski;  Tomasz; Poznañ; S³owackiego 17; Odkurzacz; 390; 2012-11-25
+ Witkowski;  Pawe³; Wroc³aw; Mohna 34; Piekarnik; 690; 2012-09-23
+ Góra;  Grzegorz; Warszawa; Roja 1; Lodówka; 1200; 2012-07-11
+ Nowak;  Piotr; Gdañsk; Krótka 1; Odkurzacz; 390; 2012-08-05
+ Lipowski;  Adam; Warszawa; D³uga 14; Robot kuchenny; 450; 2012-04-24
+ Barañski;  Marcin; Warszawa; Podmurna 8; P³yta elektryczna; 630; 2012-01-26
+ Giziñski;  Konrad; Gdañsk; Szeroka 1; Lodówka; 1200; 2012-06-12
+ ¯ak;  Karol; Warszawa; Szeroka 2; P³yta elektryczna; 630; 2012-03-19
+ Nowicki;  Marek; Szczecin; Krótka 7; Lodówka; 1200; 2012-12-11
+ Górecka;  Daria; Warszawa; W¹ska 2; Mikrofalówka; 230; 2012-09-06
+ Czarnecki;  Tomasz; Warszawa; Grodzka 11; P³yta elektryczna; 630; 2012-12-15
+ Zaczyk;  Justyna; Warszawa; Mickiewicza 8; Piekarnik; 690; 2012-09-12
+ Witkowski;  Pawe³; Wroc³aw; Mohna 34; P³yta indukcyjna; 999; 2012-11-09
+ Górski;  £ukasz; Warszawa; Reja 2; Lodówka; 1200; 2012-11-07
+ Nowicka;  Beata; Poznañ; Mickiewicza 76; Odkurzacz; 390; 2012-05-23
+ Adamska;  Ewelina; Poznañ; Reja 1; P³yta gazowa; 550; 2012-06-22
+ Nowicka;  Beata; Poznañ; Mickiewicza 76; Mikrofalówka; 230; 2012-04-27
+ Lipka;  Lech; Poznañ; W¹ska 76; P³yta elektryczna; 630; 2012-10-17
+ Kozio³;  Marek; Poznañ; Krêta 47; Okap; 320; 2012-04-21
+ Janowski;  Micha³; Poznañ; 3-go Maja 31; Pralka; 1100; 2012-01-19
+ Wilk;  Ewa; Gdañsk; Reja 22; Robot kuchenny; 450; 2012-09-23
+ Domacz;  Ewa; Warszawa; Nowaka 14; P³yta elektryczna; 630; 2012-03-15
+ ¯ak;  Karol; Warszawa; Szeroka 2; Piekarnik; 690; 2012-04-05
+ Bolkowski;  Piotr; Warszawa; Kiliñskiego 11; P³yta elektryczna; 630; 2012-04-09
+ Górski;  £ukasz; Warszawa; Reja 2; Robot kuchenny; 450; 2012-10-02
+ Górski;  £ukasz; Warszawa; Reja 2; Czajnik elektryczny; 120; 2012-10-12
+ Nowicki;  Marek; Szczecin; Krótka 7; Piekarnik; 690; 2012-03-15
+ Mi³ek;  Ilona; Poznañ; Nowa 3; Zmywarka; 1450; 2012-04-05
+ Ogórek;  Magda; Gdañsk; Kwiatowa 8; Mikrofalówka; 230; 2012-04-09
+ Artowska;  Ilona; Wroc³aw; Kiliñskiego 34; Robot kuchenny; 450; 2012-10-02
+ Giziñski;  Konrad; Gdañsk; Szeroka 1; Pralka; 1100; 2012-10-12
+ Leñski;  Adam; Warszawa; Krótka 32; Piekarnik; 690; 2012-10-02

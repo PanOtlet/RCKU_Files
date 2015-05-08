@@ -1,0 +1,24 @@
+Zadanie A
+Bydgoszcz	18
+Toruñ		15
+Gdañsk		21
+Warszawa	17
+Wroc³aw		18
+Sopot		10
+
+Zadanie B
+OdpowiedŸ wynosi 6365,28
+
+Zadanie C
+Najwiêksza cena w Toruniu: 406000
+Najni¿sza cena we Wroc³awiu: 180000
+
+Zadanie D
+1 pokój - 27 mieszkañ
+2 pokoje - 42 mieszkania
+3 pokoje - 26 mieszkañ
+4 pokoje - 4 mieszkania
+Wykres dostêpny w pliku Zadanie5.xlsx
+
+Zadanie E
+Œrednia = 69,3 m^2

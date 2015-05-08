@@ -1,0 +1,47 @@
+A)
+Typ	ID_Szko³y	Godzin
+
+PI	1		20
+	4		80
+	6		20
+	7		40
+	11		20
+	12		60
+	16		100
+	18		20
+
+PII	1		90
+	4		60
+	6		90
+	7		30
+	11		30
+	18		60
+
+PIII	2		60
+	5		140
+	9		160
+	14		160
+
+PIV	3		160
+	8		320
+	15		680
+	17		280
+	20		320
+
+B)
+Typ	Iloœæ
+PI	18
+PII	12
+PIII	26
+PIV	44
+
+C)
+Miejscowoœæ	Typ	Liczba
+Anio³kowo	GIM	2
+		PGIM	2
+		SP	4
+Modralin	GIM	3
+		PGIM	3
+		SP	4
+Wielka Wola	GIM	1
+		SP	1

@@ -1,0 +1,21 @@
+Id_szko³y;Typ_szko³y;Nazwa;Miejscowosc;Ulica;Dyrektor_Imiê;Dyrektor_Nazwisko;Dyrektor_Tytul
+1;SP;Szko³a Podstawowa Nr 1;Anio³kowo;Szkolna 5;Ferdynand;Wspania³y;mgr
+2;GIM;Gimnazjum Nr 1;Anio³kowo;Edukacji 31;Izabella;Lepsza;mgr
+3;PGIM;I Liceum Ogólnokszta³cace;Anio³kowo;Kaganka 34;Karol;W³adczy;dr
+4;SP;Szko³a Podstawowa Nr 2;Anio³kowo;D³uga 45;Anna;Niebieska;mgr
+5;GIM;Gimnazjum Nr 2;Anio³kowo;Krêta 3;Laurenty;Dostojny;mgr
+6;SP;Szko³a Podstawowa Nr 3;Anio³kowo;Polna 21;Ewelina;Pomocna;ngr
+7;SP;Szko³a Podstawowa Nr 4;Anio³kowo;Rynek 6;Andrzej;Kowal;mgr
+8;PGIM;Technikum Elektroniczne;Anio³kowo;Targowa 11;Wies³aw;Wala;mgr
+9;GIM;Gimnazjum Nr1;Modralin;Cicha 16;Adam;Aronek;mgrin¿.
+10;SP;Szko³a Podstawowa Nr 1;Modralin;Prosta 18;Ewa;Wieja;mgr
+11;SP;Szko³a Podstawowa Nr 2;Modralin;Kresowa 7;Izabella;Kurzawa;mgr
+12;SP;Szko³a Podstawowa Nr 3;Modralin;Rynek 66;Wojciech;Barnaba;mgr
+13;GIM;Gimnazjum Nr 2;Modralin;Pryncypialna 4;Albert;Filonicki;mgr
+14;GIM;Gimnazjum Nr 3;Modralin;Wiejska 33;Katarzyna;Wielecka;mgr
+15;PGIM;I Liceum Ogólnokszta³cace;Modralin;Rynek 24;Maria;Alberska;mgr
+16;SP;Szko³a Podstawowa Nr4;Modralin;Alzacka 11;Aleksandra;Ponikwa;mgr
+17;PGIM;Zespó³ Szkó³ Zawodowych;Modralin;Amerykañska 7;Lech;Witowicz;mgr in¿.
+18;SP;Szko³a Podstawowa;Wielka Wola;;Irena;Anzelm;mgr
+19;GIM;Gimnazjum Publiczne;Wielka Wola;;Tadeusz;Rokaznicki;mgr
+20;PGIM;II Liceum Ogólnokszta³cace;Modralin;Sto³eczna 16;Eugenia;Mronicka;dr

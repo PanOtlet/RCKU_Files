@@ -1,0 +1,482 @@
+/*
+	TXT by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+
+/*********************************************************************************/
+/* Basic                                                                         */
+/*********************************************************************************/
+
+	h1, h2, h3, h4, h5, h6
+	{
+		margin: 0 0 0.5em 0;
+	}
+
+	h2
+	{
+		font-size: 1.65em;
+	}
+
+		h2.major
+		{
+			font-size: 1.65em;
+			text-align: center;
+			margin: 0 0 3em 0;
+		}
+
+			h2.major span
+			{
+				top: -0.775em;
+				padding: 0 1.5em 0 1.5em;
+			}
+
+	h3
+	{
+		font-size: 1.25em;
+	}
+
+	h4
+	{
+		font-size: 1.25em;
+	}
+
+	/* Button */
+	
+		input[type="button"],
+		input[type="submit"],
+		input[type="reset"],
+		.button
+		{
+			font-size: 1.25em;
+			padding: 0.85em 1.85em;
+		}
+
+			input[type="button"].big,
+			input[type="submit"].big,
+			input[type="reset"].big,
+			.button.big
+			{
+				font-size: 1.65em;
+				padding: 0.85em 1.85em;
+			}
+	
+	/* List */
+
+		ul
+		{
+		}	
+	
+			ul.actions
+			{
+				text-align: center;
+				margin: 2em 0 0 0;
+			}
+	
+	/* Box */
+
+		.box
+		{
+		}
+
+			.box.highlight
+			{
+			}
+			
+				.box.highlight .special
+				{
+					margin: 0 0 4em 0;
+				}
+
+				.box.highlight h2
+				{
+					font-size: 3em;
+					margin: 0 0 0.75em 0;
+				}
+
+				.box.highlight header > p
+				{
+					font-size: 1.65em;
+					margin: 0 0 1.5em 0;
+				}
+
+			.box.feature
+			{
+				text-align: center;
+			}
+			
+			.box.post
+			{
+			}
+
+				.box.post header
+				{
+					margin: 0 0 2.5em 0;
+				}
+
+				.box.post h3
+				{
+					font-size: 3em;
+					margin: 0 0 0.5em 0;
+				}
+
+				.box.post header > p
+				{
+					font-size: 1.65em;
+					margin: 0 0 0.5em 0;
+				}
+
+				.box.post ul.meta
+				{
+					margin: 0 0 0.5em 0;
+				}
+			
+			.box.post-summary
+			{
+			}
+			
+				.box.post-summary h3
+				{
+					line-height: 1em;
+					margin: 0 0 0.75em 0;
+				}
+
+				.box.post-summary .meta
+				{
+					margin: 0;
+					line-height: 1em;
+				}
+
+			.box.page-content
+			{
+			}
+
+				.box.page-content header
+				{
+					margin: 0 0 2.5em 0;
+				}
+
+				.box.page-content h2
+				{
+					font-size: 3em;
+					margin: 0 0 0.5em 0;
+				}
+
+				.box.page-content header > p
+				{
+					font-size: 1.65em;
+					margin: 0 0 0.5em 0;
+				}
+
+				.box.page-content ul.meta
+				{
+					margin: 0 0 0.5em 0;
+				}
+
+/*********************************************************************************/
+/* Sidebar + Content                                                             */
+/*********************************************************************************/
+
+	.sidebar
+	{
+		padding-top: 0.5em;
+	}
+	
+		.homepage .sidebar
+		{
+			padding-top: 0;
+		}
+
+		.sidebar h2.major
+		{
+			text-align: left;
+			margin: 0 0 1em 0;
+		}
+		
+			.sidebar h2.major span
+			{
+				padding-left: 0;
+			}
+
+	.content
+	{
+	}
+
+		.content-left
+		{
+			padding-right: 2em;
+		}
+	
+		.content-right
+		{
+			padding-left: 2em;
+		}
+
+/*********************************************************************************/
+/* Wrappers                                                                      */
+/*********************************************************************************/
+
+	#banner-wrapper
+	{
+		padding: 11em 0;
+	}
+	
+	#main-wrapper
+	{
+		border-top-width: 35px;
+		border-bottom-width: 10px;
+	}
+	
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+	#header
+	{
+		text-align: center;
+		font-size: 2em;
+		font-family: 'Open Sans Condensed', sans-serif;
+		font-weight: 700;
+		text-transform: uppercase;
+		padding: 5em 0 2em 0;
+		background: #fff;
+		margin: 0 auto;
+	}
+
+		#header .logo
+		{
+			position: relative;
+			text-align: center;
+			border-top: solid 5px #e7eae8;
+		}
+
+			#header .logo div
+			{
+				background: #fff;
+				position: relative;
+				display: inline-block;
+				padding: 0 1.5em 0 1.5em;
+				top: -0.65em;
+			}
+		
+			#header .logo h1,
+			#header .logo p
+			{
+				display: inline;
+			}
+			
+			#header .logo p
+			{
+				color: #C1CAC5;
+			}
+
+/*********************************************************************************/
+/* Nav                                                                           */
+/*********************************************************************************/
+
+	#nav
+	{
+		position: fixed;
+		top: 0;
+		left: 0;
+		z-index: 1000;
+		background-color: rgba(255,255,255,0.95);
+		background-image: url('images/overlay.png');
+		width: 100%;
+		height: 3.25em;
+		line-height: 3.25em;
+		text-align: center;
+		font-family: 'Open Sans Condensed', sans-serif;
+		font-weight: 700;
+		text-transform: uppercase;
+		cursor: default;
+	}
+
+		#nav ul
+		{
+			position: relative;
+			z-index: 1001;
+		}
+	
+		#nav li
+		{
+			display: inline-block;
+			margin: 0 0.5em 0 0.5em;
+			top: 0;
+			position: relative;
+			-moz-transition: top .15s ease-in-out;
+			-webkit-transition: top .15s ease-in-out;
+			-o-transition: top .15s ease-in-out;
+			-ms-transition: top .15s ease-in-out;
+			transition: top .15s ease-in-out;
+		}
+
+			#nav li > ul
+			{
+				display: none;
+			}
+
+			#nav li a,
+			#nav li span
+			{
+				position: relative;
+				display: block;
+				text-decoration: none;
+				color: #6b7770;
+				top: -6px;
+				padding: 6px 1.5em 0.25em 1.5em;
+				border-bottom-left-radius: 6px;
+				border-bottom-right-radius: 6px;
+				outline: 0;
+				-moz-transition: background-color .075s ease-in-out, color .075s ease-in-out;
+				-webkit-transition: background-color .075s ease-in-out, color .075s ease-in-out;
+				-o-transition: background-color .075s ease-in-out, color .075s ease-in-out;
+				-ms-transition: background-color .075s ease-in-out, color .075s ease-in-out;
+				transition: background-color .075s ease-in-out, color .075s ease-in-out;
+			}
+
+			#nav li:hover,
+			#nav li.active
+			{
+				top: 3px;
+			}
+
+				#nav li:hover a,
+				#nav li:hover span,
+				#nav li.active a,
+				#nav li.active span
+				{
+					background: #C1CAC5;
+					color: #fff;
+				}
+
+			#nav li.current
+			{
+			}
+
+				#nav li.current a
+				{
+					background: #b1ddab;
+					color: #fff;
+				}
+
+	.dropotron
+	{
+		background: #6B7770;
+		color: #fff;
+		border-radius: 6px;
+		line-height: 2.75em;
+		text-align: center;
+		font-family: 'Open Sans Condensed', sans-serif;
+		font-weight: 700;
+		text-transform: uppercase;
+		padding: 1em 0;
+		text-align: left;
+		min-width: 14em;
+		margin-top: -1em;
+		box-shadow: 0 1em 2em 0 rgba(0,0,0,0.1);
+	}
+	
+		.dropotron li
+		{
+		}
+		
+			.dropotron li > a,
+			.dropotron li > span
+			{
+				display: block;
+				color: #D7DAD8;
+				text-decoration: none;
+				padding: 0 1.25em;
+			}
+
+			.dropotron li:hover > a,
+			.dropotron li:hover > span,
+			.dropotron li.active > a,
+			.dropotron li.active > span
+			{
+				color: #fff;
+				background: #7B8780;
+			}
+
+			.dropotron li:first-child
+			{
+				border-top: 0;
+			}
+			
+		.dropotron.level-0
+		{
+			margin-top: 1em;
+			font-size: 0.9em;
+		}
+		
+			.dropotron.level-0:before
+			{
+				content: '';
+				position: absolute;
+				left: 50%;
+				margin-left: -1em;
+				top: -0.65em;
+				border-bottom: solid 1em #6B7770;
+				border-left: solid 1em transparent;
+				border-right: solid 1em transparent;
+			}
+
+/*********************************************************************************/
+/* Banner                                                                        */
+/*********************************************************************************/
+
+	#banner
+	{
+		padding: 4em 0 3.5em 0;
+	}
+	
+		#banner h2
+		{
+			font-size: 2.75em;
+			margin: 0 0 0.75em 0;
+		}
+		
+		#banner p
+		{
+			font-size: 1.35em;
+			margin: 0 0 1.25em 0;
+		}
+
+		#banner .button
+		{
+			font-size: 1.5em;
+		}
+
+/*********************************************************************************/
+/* Main                                                                          */
+/*********************************************************************************/
+
+	#main
+	{
+		padding: 6em 0 6em 0;
+	}
+
+/*********************************************************************************/
+/* Footer                                                                        */
+/*********************************************************************************/
+
+	#footer
+	{
+		text-align: center;
+		padding: 8em 0 8em 0;
+	}
+	
+		#footer h2.major
+		{
+			margin: 0 0 1em 0;
+		}		
+
+/*********************************************************************************/
+/* Copyright                                                                     */
+/*********************************************************************************/
+
+	#copyright
+	{
+		margin: 4em 0 0 0;
+	}

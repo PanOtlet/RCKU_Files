@@ -1,0 +1,5 @@
+Id_typu_praktyki;Stopieñ_studiów;Rok_studiów;Typ_szko³y;Godzin_praktyki
+PI;1;2;SP;20
+PII;1;3;SP;30
+PIII;2;1;GIM;20
+PIV;2;2;PGIM;40
